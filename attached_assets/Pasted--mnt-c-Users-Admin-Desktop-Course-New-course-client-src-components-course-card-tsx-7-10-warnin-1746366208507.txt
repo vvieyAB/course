@@ -1,0 +1,952 @@
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/course-card.tsx
+  7:10  warning  'getRealmName' is defined but never used  no-unused-vars
+  7:10  warning  'getRealmName' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/course-journey.tsx
+  1:31  warning  'lazy' is defined but never used       no-unused-vars
+  1:31  warning  'lazy' is defined but never used       @typescript-eslint/no-unused-vars
+  1:37  warning  'Suspense' is defined but never used   no-unused-vars
+  1:37  warning  'Suspense' is defined but never used   @typescript-eslint/no-unused-vars
+  3:10  warning  'LazyImage' is defined but never used  no-unused-vars
+  3:10  warning  'LazyImage' is defined but never used  @typescript-eslint/no-unused-vars
+  6:10  warning  'Loader2' is defined but never used    no-unused-vars
+  6:10  warning  'Loader2' is defined but never used    @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/mission-wrapper.tsx
+    1:38  warning  'lazy' is defined but never used                                             no-unused-vars
+    1:38  warning  'lazy' is defined but never used                                             @typescript-eslint/no-unused-vars        
+    1:44  warning  'Suspense' is defined but never used                                         no-unused-vars
+    1:44  warning  'Suspense' is defined but never used                                         @typescript-eslint/no-unused-vars        
+   16:34  warning  'missionId' is defined but never used                                        no-unused-vars
+   16:34  warning  'missionId' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+   43:12  warning  'setLocation' is assigned a value but never used                             no-unused-vars
+   43:12  warning  'setLocation' is assigned a value but never used                             @typescript-eslint/no-unused-vars        
+   89:9   warning  Unexpected console statement                                                 no-console
+   97:13  warning  Unexpected console statement                                                 no-console
+   99:20  warning  'e' is defined but never used                                                no-unused-vars
+   99:20  warning  'e' is defined but never used                                                @typescript-eslint/no-unused-vars        
+  101:13  warning  Unexpected console statement                                                 no-console
+  121:9   warning  Unexpected console statement                                                 no-console
+  145:24  error    Do not access Object.prototype method 'hasOwnProperty' from target object    no-prototype-builtins
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/missions/Mission.tsx
+   20:48  warning  'realmTheme' is assigned a value but never used                                        no-unused-vars
+   20:48  warning  'realmTheme' is assigned a value but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+   21:10  warning  'isSimulationComplete' is assigned a value but never used                              no-unused-vars
+   21:10  warning  'isSimulationComplete' is assigned a value but never used                              @typescript-eslint/no-unused-vars
+   91:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+   91:39  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+   99:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+   99:45  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  107:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  107:38  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  119:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  119:46  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  128:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  128:44  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  140:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  140:43  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  149:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  149:43  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  158:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  158:41  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  169:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  169:40  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  178:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  178:38  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  188:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  188:40  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+  199:9   error    Unexpected lexical declaration in case block                                           no-case-declarations
+  199:47  error    A `require()` style import is forbidden                                                @typescript-eslint/no-require-imports
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/BarterWebChallenge.tsx
+  10:10  warning  'selectedTrader' is assigned a value but never used  no-unused-vars
+  10:10  warning  'selectedTrader' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/BitcoinMiningSimulator.tsx
+    6:10  warning  'miningTheme' is defined but never used
+no-unused-vars
+    6:10  warning  'miningTheme' is defined but never used
+@typescript-eslint/no-unused-vars
+  185:27  warning  'setElectricityCost' is assigned a value but never used
+no-unused-vars
+  185:27  warning  'setElectricityCost' is assigned a value but never used
+@typescript-eslint/no-unused-vars
+  215:6   warning  React Hook useEffect has a missing dependency: 'networkDifficulty'. Either include it or remove the dependency array  
+react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/CryptographySimulator.tsx
+  7:28  warning  'Key' is defined but never used  no-unused-vars
+  7:28  warning  'Key' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/EscapeSurveillanceGame.tsx
+  1:20  warning  'useEffect' is defined but never used   no-unused-vars
+  1:20  warning  'useEffect' is defined but never used   @typescript-eslint/no-unused-vars
+  4:29  warning  'CardFooter' is defined but never used  no-unused-vars
+  4:29  warning  'CardFooter' is defined but never used  @typescript-eslint/no-unused-vars
+  5:22  warning  'Eye' is defined but never used         no-unused-vars
+  5:22  warning  'Eye' is defined but never used         @typescript-eslint/no-unused-vars
+  6:10  warning  'Progress' is defined but never used    no-unused-vars
+  6:10  warning  'Progress' is defined but never used    @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/ExclusionWebGame.tsx
+   4:29  warning  'CardFooter' is defined but never used         no-unused-vars
+   4:29  warning  'CardFooter' is defined but never used         @typescript-eslint/no-unused-vars
+   5:82  warning  'ScrollText' is defined but never used         no-unused-vars
+   5:82  warning  'ScrollText' is defined but never used         @typescript-eslint/no-unused-vars
+  62:9   warning  'progress' is assigned a value but never used  no-unused-vars
+  62:9   warning  'progress' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/GlobalMoneyWebSimulation.tsx
+   5:40  warning  'DollarSign' is defined but never used                 no-unused-vars
+   5:40  warning  'DollarSign' is defined but never used                 @typescript-eslint/no-unused-vars
+   5:52  warning  'Clock' is defined but never used                      no-unused-vars
+   5:52  warning  'Clock' is defined but never used                      @typescript-eslint/no-unused-vars
+   5:59  warning  'LineChart' is defined but never used                  no-unused-vars
+   5:59  warning  'LineChart' is defined but never used                  @typescript-eslint/no-unused-vars
+  76:9   warning  'getTimelineEvent' is assigned a value but never used  no-unused-vars
+  76:9   warning  'getTimelineEvent' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/HashFunctionSimulator.tsx
+  16:11  warning  'MiningData' is defined but never used
+                                                                                                                         no-unused-vars  
+  16:11  warning  'MiningData' is defined but never used
+                                                                                                                         @typescript-eslint/no-unused-vars
+  29:15  error    Unexpected any. Specify a different type
+                                                                                                                         @typescript-eslint/no-explicit-any
+  30:19  error    Unexpected any. Specify a different type
+                                                                                                                         @typescript-eslint/no-explicit-any
+  75:6   warning  React Hook useEffect has a missing dependency: 'currentHash'. Either include it or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setPreviousHash' needs the current value of 'currentHash'  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/InflationSimulator.tsx
+   16:10  warning  'currentEventIndex' is assigned a value but never used
+                                                                                                                  no-unused-vars
+   16:10  warning  'currentEventIndex' is assigned a value but never used
+                                                                                                                  @typescript-eslint/no-unused-vars
+  126:6   warning  React Hook useEffect has a missing dependency: 'simulation'. Either include it or remove the dependency array. You can also do a functional update 'setSimulation(s => ...)' if you only need 'simulation' in the 'setSimulation' call  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/MerkleTreeSimulator.tsx
+  18:11  warning  'MerkleProof' is defined but never used                                                   no-unused-vars
+  18:11  warning  'MerkleProof' is defined but never used                                                   @typescript-eslint/no-unused-vars
+  32:15  error    Unexpected any. Specify a different type                                                  @typescript-eslint/no-explicit-any
+  33:19  error    Unexpected any. Specify a different type                                                  @typescript-eslint/no-explicit-any
+  64:3   warning  'challenges' is assigned a value but never used                                           no-unused-vars
+  64:3   warning  'challenges' is assigned a value but never used. Allowed unused args must match /^_/u     @typescript-eslint/no-unused-vars
+  65:3   warning  'visualization' is assigned a value but never used                                        no-unused-vars
+  65:3   warning  'visualization' is assigned a value but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/MiningBasicsSimulator.tsx
+   6:10  warning  'Slider' is defined but never used       no-unused-vars
+   6:10  warning  'Slider' is defined but never used       @typescript-eslint/no-unused-vars
+  14:3   warning  'AlertCircle' is defined but never used  no-unused-vars
+  14:3   warning  'AlertCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  17:11  warning  'LinkIcon' is defined but never used     no-unused-vars
+  17:11  warning  'LinkIcon' is defined but never used     @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/PaymentPrivacySimulator.tsx
+  6:35  warning  'Shield' is defined but never used  no-unused-vars
+  6:35  warning  'Shield' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx
+  4:29  warning  'CardDescription' is defined but never used  no-unused-vars
+  4:29  warning  'CardDescription' is defined but never used  @typescript-eslint/no-unused-vars
+  4:46  warning  'CardFooter' is defined but never used       no-unused-vars
+  4:46  warning  'CardFooter' is defined but never used       @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/calendar.tsx
+  55:25  warning  'props' is defined but never used                                        no-unused-vars
+  55:25  warning  'props' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  56:26  warning  'props' is defined but never used                                        no-unused-vars
+  56:26  warning  'props' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/carousel.tsx
+  19:13  warning  'api' is defined but never used  no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/chart.tsx
+  10:4  warning  'k' is defined but never used  no-unused-vars
+  70:7  warning  '_' is defined but never used  no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/clean-nav-bar.tsx
+  3:10  warning  'DEFAULT_AVATAR' is defined but never used  no-unused-vars
+  3:10  warning  'DEFAULT_AVATAR' is defined but never used  @typescript-eslint/no-unused-vars
+  4:10  warning  'OutlineButton' is defined but never used   no-unused-vars
+  4:10  warning  'OutlineButton' is defined but never used   @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/glowing-chain.tsx
+  12:18  warning  'nodeId' is defined but never used  no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/input.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/mission.tsx
+  11:60  warning  'onComplete' is defined but never used                                        no-unused-vars
+  11:60  warning  'onComplete' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+  51:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  52:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  53:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  54:16  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  55:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  56:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  57:17  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  58:25  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  61:19  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  64:18  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/nav-bar.tsx
+  3:10  warning  'DEFAULT_AVATAR' is defined but never used  no-unused-vars
+  3:10  warning  'DEFAULT_AVATAR' is defined but never used  @typescript-eslint/no-unused-vars
+  4:10  warning  'OutlineButton' is defined but never used   no-unused-vars
+  4:10  warning  'OutlineButton' is defined but never used   @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button-fixed.tsx
+  26:3   warning  'imageUrl' is defined but never used                                        no-unused-vars
+  26:3   warning  'imageUrl' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  72:11  warning  Unexpected console statement                                                no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx
+  72:11  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/sidebar.tsx
+  30:13  warning  'open' is defined but never used   no-unused-vars
+  32:19  warning  'open' is defined but never used   no-unused-vars
+  53:21  warning  'open' is defined but never used   no-unused-vars
+  76:27  warning  'value' is defined but never used  no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/theme-toggle.tsx
+  4:15  warning  'theme' is defined but never used  no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/toast.tsx
+  54:5  warning  Unknown property 'toast-close' found  react/no-unknown-property
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/toaster.tsx
+  13:35  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  14:11  warning  'toast' is assigned a value but never used  no-unused-vars
+  14:11  warning  'toast' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/use-toast.tsx
+    8:6   warning  'ToastPropsBase' is defined but never used                 no-unused-vars
+    8:6   warning  'ToastPropsBase' is defined but never used                 @typescript-eslint/no-unused-vars
+   17:19  warning  'open' is defined but never used                           no-unused-vars
+   33:7   warning  'actionTypes' is assigned a value but only used as a type  @typescript-eslint/no-unused-vars
+  144:25  warning  'state' is defined but never used                          no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/components/ui/user-id-recovery.tsx
+  23:7  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/context/AuthContext.tsx
+    2:10  warning  'MissionType' is defined but never used                                     no-unused-vars
+    2:10  warning  'MissionType' is defined but never used                                     @typescript-eslint/no-unused-vars
+    2:23  warning  'BadgeType' is defined but never used                                       no-unused-vars
+    2:23  warning  'BadgeType' is defined but never used                                       @typescript-eslint/no-unused-vars
+   35:11  warning  'username' is defined but never used                                        no-unused-vars
+   35:29  warning  'password' is defined but never used                                        no-unused-vars
+   36:14  warning  'username' is defined but never used                                        no-unused-vars
+   36:32  warning  'password' is defined but never used                                        no-unused-vars
+   36:50  warning  'email' is defined but never used                                           no-unused-vars
+   41:21  warning  'realm' is defined but never used                                           no-unused-vars
+   49:21  warning  'missionId' is defined but never used                                       no-unused-vars
+   50:17  warning  'realmId' is defined but never used                                         no-unused-vars
+   51:15  warning  'badgeId' is defined but never used                                         no-unused-vars
+   80:7   warning  'initialProgress' is assigned a value but never used                        no-unused-vars
+   80:7   warning  'initialProgress' is assigned a value but never used                        @typescript-eslint/no-unused-vars
+   93:19  warning  'setLoading' is assigned a value but never used                             no-unused-vars
+   93:19  warning  'setLoading' is assigned a value but never used                             @typescript-eslint/no-unused-vars
+  118:7   warning  Unexpected console statement                                                no-console
+  135:9   warning  Unexpected console statement                                                no-console
+  141:36  warning  'password' is defined but never used                                        no-unused-vars
+  141:36  warning  'password' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  142:5   warning  Unexpected console statement                                                no-console
+  163:7   warning  Unexpected console statement                                                no-console
+  176:39  warning  'password' is defined but never used                                        no-unused-vars
+  176:39  warning  'password' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  176:57  warning  'email' is defined but never used                                           no-unused-vars
+  176:57  warning  'email' is defined but never used. Allowed unused args must match /^_/u     @typescript-eslint/no-unused-vars
+  177:5   warning  Unexpected console statement                                                no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/context/OfflineContext.tsx
+   7:21  warning  'realmId' is defined but never used   no-unused-vars
+  26:34  warning  '_realmId' is defined but never used  no-unused-vars
+  27:5   warning  Unexpected console statement          no-console
+  32:5   warning  Unexpected console statement          no-console
+  37:5   warning  Unexpected console statement          no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/hooks/use-toast.ts
+  9:3  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/hooks/use-toast.tsx
+   6:10  warning  'Toast' is defined but never used               no-unused-vars
+   6:10  warning  'Toast' is defined but never used               @typescript-eslint/no-unused-vars
+   9:8   warning  'ToastProps' is defined but never used          no-unused-vars
+   9:8   warning  'ToastProps' is defined but never used          @typescript-eslint/no-unused-vars
+  10:8   warning  'ToastActionElement' is defined but never used  no-unused-vars
+  10:8   warning  'ToastActionElement' is defined but never used  @typescript-eslint/no-unused-vars
+  11:8   warning  'ToastState' is defined but never used          no-unused-vars
+  11:8   warning  'ToastState' is defined but never used          @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/constants.new.ts
+  2:24  warning  'getRealmDescription' is defined but never used  no-unused-vars
+  2:24  warning  'getRealmDescription' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/constants.ts
+  2:24  warning  'getRealmDescription' is defined but never used  no-unused-vars
+  2:24  warning  'getRealmDescription' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/offline-storage.ts
+   25:7   warning  Unexpected console statement              no-console
+   79:9   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   88:9   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  169:32  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  170:40  warning  Unexpected console statement              no-console
+  173:15  warning  Unexpected console statement              no-console
+  215:55  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/protected-route.tsx
+   1:10  warning  'Loader2' is defined but never used                                                    no-unused-vars
+   1:10  warning  'Loader2' is defined but never used                                                    @typescript-eslint/no-unused-vars
+  11:28  error    Unexpected any. Specify a different type                                               @typescript-eslint/no-explicit-any
+  25:3   warning  'redirectTo' is assigned a value but never used                                        no-unused-vars
+  25:3   warning  'redirectTo' is assigned a value but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  28:28  error    Unexpected any. Specify a different type                                               @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/queryClient.ts
+  23:10  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  43:5   warning  Unexpected console statement              no-console
+  80:7   warning  Unexpected console statement              no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/realm1-missions.ts
+  13:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/realm2-missions.ts
+  9:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/lib/realm3-missions.ts
+  1:26  warning  'Question' is defined but never used  no-unused-vars
+  1:26  warning  'Question' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/main.tsx
+  22:1  warning  Unexpected console statement  no-console
+  29:5  warning  Unexpected console statement  no-console
+  31:5  warning  Unexpected console statement  no-console
+  52:9  warning  Unexpected console statement  no-console
+  60:3  warning  Unexpected console statement  no-console
+  65:3  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/BadgesPage.tsx
+  7:10  warning  'RealmData' is defined but never used  no-unused-vars
+  7:10  warning  'RealmData' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/HomePage.tsx
+   1:10  warning  'Link' is defined but never used                   no-unused-vars
+   1:10  warning  'Link' is defined but never used                   @typescript-eslint/no-unused-vars
+   2:20  warning  'useEffect' is defined but never used              no-unused-vars
+   2:20  warning  'useEffect' is defined but never used              @typescript-eslint/no-unused-vars
+  12:18  warning  'setRealms' is assigned a value but never used     no-unused-vars
+  12:18  warning  'setRealms' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  13:21  warning  'setIsLoading' is assigned a value but never used  no-unused-vars
+  13:21  warning  'setIsLoading' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  14:17  warning  'setError' is assigned a value but never used      no-unused-vars
+  14:17  warning  'setError' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/MapPage.tsx
+  26:7  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/RealmPage.tsx
+  13:43  warning  'index' is defined but never used                                        no-unused-vars
+  13:43  warning  'index' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  65:9   warning  'theme' is assigned a value but never used                               no-unused-vars
+  65:9   warning  'theme' is assigned a value but never used                               @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/auth-page.tsx
+  51:21  error    React Hook "useForm" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+  60:24  error    React Hook "useForm" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+  76:7   warning  Unexpected console statement
+     no-console
+  86:15  warning  'confirmPassword' is assigned a value but never used
+     no-unused-vars
+  86:15  warning  'confirmPassword' is assigned a value but never used
+     @typescript-eslint/no-unused-vars
+  90:7   warning  Unexpected console statement
+     no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm1/game.tsx
+  26:6  warning  React Hook useEffect has a missing dependency: 'initializeGame'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm1/home.tsx
+  10:29  warning  'setCompletedMissions' is assigned a value but never used                    no-unused-vars
+  10:29  warning  'setCompletedMissions' is assigned a value but never used                    @typescript-eslint/no-unused-vars
+  13:9   warning  'getNextUnlockedMission' is assigned a value but never used                  no-unused-vars
+  13:9   warning  'getNextUnlockedMission' is assigned a value but never used                  @typescript-eslint/no-unused-vars
+  17:30  warning  'missionId' is defined but never used                                        no-unused-vars
+  17:30  warning  'missionId' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm1/missions.tsx
+   39:9   warning  'generateSharingMessage' is assigned a value but never used
+       no-unused-vars
+   39:9   warning  'generateSharingMessage' is assigned a value but never used
+       @typescript-eslint/no-unused-vars
+  142:41  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+  145:43  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+  146:47  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm2/bitcoin-transparency-explorer.tsx
+  1:31  warning  'useRef' is defined but never used  no-unused-vars
+  1:31  warning  'useRef' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm2/home.tsx
+  8:11  warning  'user' is assigned a value but never used  no-unused-vars
+  8:11  warning  'user' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm2/lightning-network-simulator.tsx
+  30:20  warning  'setChannels' is assigned a value but never used      no-unused-vars
+  30:20  warning  'setChannels' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  32:24  warning  'setSelectedNode' is assigned a value but never used  no-unused-vars
+  32:24  warning  'setSelectedNode' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm2/mission.tsx
+  5:9   warning  'params' is assigned a value but never used       no-unused-vars
+  5:9   warning  'params' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  6:12  warning  'setLocation' is assigned a value but never used  no-unused-vars
+  6:12  warning  'setLocation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm2/missions.tsx
+  214:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/consensus-simulator.tsx
+    2:19  warning  'Check' is defined but never used
+                no-unused-vars
+    2:19  warning  'Check' is defined but never used
+                @typescript-eslint/no-unused-vars
+    2:26  warning  'X' is defined but never used
+                no-unused-vars
+    2:26  warning  'X' is defined but never used
+                @typescript-eslint/no-unused-vars
+    2:29  warning  'ArrowRight' is defined but never used
+                no-unused-vars
+    2:29  warning  'ArrowRight' is defined but never used
+                @typescript-eslint/no-unused-vars
+  177:6   warning  React Hook useEffect has missing dependencies: 'mineBlocks' and 'stopSimulation'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/cryptography-simulator.tsx
+   1:20  warning  'useEffect' is defined but never used          no-unused-vars
+   1:20  warning  'useEffect' is defined but never used          @typescript-eslint/no-unused-vars
+  10:10  warning  'stage' is assigned a value but never used     no-unused-vars
+  10:10  warning  'stage' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  10:17  warning  'setStage' is assigned a value but never used  no-unused-vars
+  10:17  warning  'setStage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx
+   2:23  warning  'Check' is defined but never used                                                                             no-unused-vars
+   2:23  warning  'Check' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  71:6   warning  React Hook useEffect has a missing dependency: 'isHashing'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/home.tsx
+  140:19  warning  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid      
+  211:13  warning  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid      
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/merkle-tree-simulator.tsx
+    2:20  warning  'Check' is defined but never used                                                                                   no-unused-vars
+    2:20  warning  'Check' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+  142:6   warning  React Hook useEffect has a missing dependency: 'buildMerkleTree'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/mission.tsx
+   11:10  warning  '_' is assigned a value but never used
+
+                                                                                                           no-unused-vars
+   11:10  warning  '_' is assigned a value but never used
+
+                                                                                                           @typescript-eslint/no-unused-vars
+  133:13  warning  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid      
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/missions.tsx
+   24:9   warning  'missionDataId' is assigned a value but never used  no-unused-vars
+   24:9   warning  'missionDataId' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  206:46  error    Unexpected any. Specify a different type            @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/consensus-simulator.tsx
+  37:10  warning  'transactions' is assigned a value but never used        no-unused-vars
+  37:10  warning  'transactions' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  42:27  warning  'setSimulationSpeed' is assigned a value but never used  no-unused-vars
+  42:27  warning  'setSimulationSpeed' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/halving-simulator.tsx
+  30:20  warning  'setHalvings' is assigned a value but never used  no-unused-vars
+  30:20  warning  'setHalvings' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/home.tsx
+  42:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/knowledge-simulator.tsx
+  186:6   warning  React Hook useEffect has a missing dependency: 'handleAnswer'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  471:74  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  500:78  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/mining-simulator.tsx
+  263:39  warning  'index' is defined but never used                                        no-unused-vars
+  263:39  warning  'index' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/mission.tsx
+    8:10  warning  'MissionContent' is defined but never used
+
+                                                                                                           no-unused-vars
+    8:10  warning  'MissionContent' is defined but never used
+
+                                                                                                           @typescript-eslint/no-unused-vars
+   12:10  warning  '_' is assigned a value but never used
+
+                                                                                                           no-unused-vars
+   12:10  warning  '_' is assigned a value but never used
+
+                                                                                                           @typescript-eslint/no-unused-vars
+  162:13  warning  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid      
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/bip-simulator.tsx
+  2:60  warning  'User' is defined but never used  no-unused-vars
+  2:60  warning  'User' is defined but never used  @typescript-eslint/no-unused-vars
+  2:73  warning  'Code' is defined but never used  no-unused-vars
+  2:73  warning  'Code' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/failed-forks-simulator.tsx
+  1:20  warning  'useEffect' is defined but never used  no-unused-vars
+  1:20  warning  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/fork-simulator.tsx
+  1:20  warning  'useEffect' is defined but never used      no-unused-vars
+  1:20  warning  'useEffect' is defined but never used      @typescript-eslint/no-unused-vars
+  2:26  warning  'X' is defined but never used              no-unused-vars
+  2:26  warning  'X' is defined but never used              @typescript-eslint/no-unused-vars
+  2:47  warning  'AlertTriangle' is defined but never used  no-unused-vars
+  2:47  warning  'AlertTriangle' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/governance-simulator.tsx
+  2:10  warning  'Users' is defined but never used  no-unused-vars
+  2:10  warning  'Users' is defined but never used  @typescript-eslint/no-unused-vars
+  2:61  warning  'Globe' is defined but never used  no-unused-vars
+  2:61  warning  'Globe' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/home.tsx
+  12:10  warning  'hoveredMission' is assigned a value but never used  no-unused-vars
+  12:10  warning  'hoveredMission' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/knowledge-simulator.tsx
+    1:20  warning  'useEffect' is defined but never used                      no-unused-vars
+    1:20  warning  'useEffect' is defined but never used                      @typescript-eslint/no-unused-vars
+    2:30  warning  'Info' is defined but never used                           no-unused-vars
+    2:30  warning  'Info' is defined but never used                           @typescript-eslint/no-unused-vars
+    2:47  warning  'ArrowRight' is defined but never used                     no-unused-vars
+    2:47  warning  'ArrowRight' is defined but never used                     @typescript-eslint/no-unused-vars
+  219:9   warning  'allQuestionsAnswered' is assigned a value but never used  no-unused-vars
+  219:9   warning  'allQuestionsAnswered' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/mission.tsx
+  13:10  warning  'realm5Missions' is defined but never used                                    no-unused-vars
+  13:10  warning  'realm5Missions' is defined but never used                                    @typescript-eslint/no-unused-vars        
+  14:10  warning  'getRealmName' is defined but never used                                      no-unused-vars
+  14:10  warning  'getRealmName' is defined but never used                                      @typescript-eslint/no-unused-vars        
+  17:12  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  21:44  warning  'onComplete' is defined but never used                                        no-unused-vars
+  21:44  warning  'onComplete' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/missions.tsx
+    8:10  warning  'Realm2MissionData' is defined but never used  no-unused-vars
+    8:10  warning  'Realm2MissionData' is defined but never used  @typescript-eslint/no-unused-vars
+  242:46  error    Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/Bonus.tsx
+    2:32  warning  'ArrowRight' is defined but never used            no-unused-vars
+    2:32  warning  'ArrowRight' is defined but never used            @typescript-eslint/no-unused-vars
+  238:9   warning  'ubuntuTheme' is assigned a value but never used  no-unused-vars
+  238:9   warning  'ubuntuTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/Builders.tsx
+    2:56  warning  'Cpu' is defined but never used                   no-unused-vars
+    2:56  warning  'Cpu' is defined but never used                   @typescript-eslint/no-unused-vars
+  213:9   warning  'ubuntuTheme' is assigned a value but never used  no-unused-vars
+  213:9   warning  'ubuntuTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/Knowledge.tsx
+  346:9   warning  'ubuntuTheme' is assigned a value but never used                         no-unused-vars
+  346:9   warning  'ubuntuTheme' is assigned a value but never used                         @typescript-eslint/no-unused-vars
+  503:41  warning  'index' is defined but never used                                        no-unused-vars
+  503:41  warning  'index' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/RealUseCase.tsx
+    2:55  warning  'Home' is defined but never used                  no-unused-vars
+    2:55  warning  'Home' is defined but never used                  @typescript-eslint/no-unused-vars
+    2:61  warning  'ShoppingCart' is defined but never used          no-unused-vars
+    2:61  warning  'ShoppingCart' is defined but never used          @typescript-eslint/no-unused-vars
+  165:9   warning  'ubuntuTheme' is assigned a value but never used  no-unused-vars
+  165:9   warning  'ubuntuTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/Tools.tsx
+    2:90  warning  'Phone' is defined but never used                 no-unused-vars
+    2:90  warning  'Phone' is defined but never used                 @typescript-eslint/no-unused-vars
+  270:9   warning  'ubuntuTheme' is assigned a value but never used  no-unused-vars
+  270:9   warning  'ubuntuTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/home.tsx
+  12:10  warning  'hoveredMission' is assigned a value but never used  no-unused-vars
+  12:10  warning  'hoveredMission' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/mission.tsx
+  13:10  warning  'getRealmName' is defined but never used                                      no-unused-vars
+  13:10  warning  'getRealmName' is defined but never used                                      @typescript-eslint/no-unused-vars        
+  16:12  error    Unexpected any. Specify a different type                                      @typescript-eslint/no-explicit-any       
+  20:44  warning  'onComplete' is defined but never used                                        no-unused-vars
+  20:44  warning  'onComplete' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/missions.tsx
+    3:24  warning  'Loader2' is defined but never used       no-unused-vars
+    3:24  warning  'Loader2' is defined but never used       @typescript-eslint/no-unused-vars
+  220:46  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/components/Certification.tsx
+   2:87  warning  'Lock' is defined but never used                              no-unused-vars
+   2:87  warning  'Lock' is defined but never used                              @typescript-eslint/no-unused-vars
+   2:93  warning  'Map' is defined but never used                               no-unused-vars
+   2:93  warning  'Map' is defined but never used                               @typescript-eslint/no-unused-vars
+  13:32  warning  'setRealmCompletionDates' is assigned a value but never used  no-unused-vars
+  13:32  warning  'setRealmCompletionDates' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/components/ComprehensiveReview.tsx
+  2:119  warning  'Map' is defined but never used  no-unused-vars
+  2:119  warning  'Map' is defined but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/components/FinalChallenge.tsx
+    2:29   warning  'CheckCircle' is defined but never used              no-unused-vars
+    2:29   warning  'CheckCircle' is defined but never used              @typescript-eslint/no-unused-vars
+    2:108  warning  'Key' is defined but never used                      no-unused-vars
+    2:108  warning  'Key' is defined but never used                      @typescript-eslint/no-unused-vars
+    2:135  warning  'Wallet' is defined but never used                   no-unused-vars
+    2:135  warning  'Wallet' is defined but never used                   @typescript-eslint/no-unused-vars
+  253:10   warning  'currentStep' is assigned a value but never used     no-unused-vars
+  253:10   warning  'currentStep' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  253:23   warning  'setCurrentStep' is assigned a value but never used  no-unused-vars
+  253:23   warning  'setCurrentStep' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  283:15   warning  'isCorrect' is assigned a value but never used       no-unused-vars
+  283:15   warning  'isCorrect' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  304:11   warning  'allCorrect' is assigned a value but never used      no-unused-vars
+  304:11   warning  'allCorrect' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/components/TechnicalMastery.tsx
+  2:48   warning  'FileCheck' is defined but never used  no-unused-vars
+  2:48   warning  'FileCheck' is defined but never used  @typescript-eslint/no-unused-vars
+  2:64   warning  'Lock' is defined but never used       no-unused-vars
+  2:64   warning  'Lock' is defined but never used       @typescript-eslint/no-unused-vars
+  2:103  warning  'Cpu' is defined but never used        no-unused-vars
+  2:103  warning  'Cpu' is defined but never used        @typescript-eslint/no-unused-vars
+  2:108  warning  'BarChart' is defined but never used   no-unused-vars
+  2:108  warning  'BarChart' is defined but never used   @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/home.tsx
+  2:23  warning  'Link' is defined but never used        no-unused-vars
+  2:23  warning  'Link' is defined but never used        @typescript-eslint/no-unused-vars
+  8:10  warning  '_' is assigned a value but never used  no-unused-vars
+  8:10  warning  '_' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/mission.tsx
+   3:10  warning  'ChevronLeft' is defined but never used   no-unused-vars
+   3:10  warning  'ChevronLeft' is defined but never used   @typescript-eslint/no-unused-vars
+   7:10  warning  'getRealmName' is defined but never used  no-unused-vars
+   7:10  warning  'getRealmName' is defined but never used  @typescript-eslint/no-unused-vars
+  18:10  warning  '_' is assigned a value but never used    no-unused-vars
+  18:10  warning  '_' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/pages/realm7/missions.tsx
+   9:10  warning  '_' is assigned a value but never used            no-unused-vars
+   9:10  warning  '_' is assigned a value but never used            @typescript-eslint/no-unused-vars
+  10:20  warning  'setMissions' is assigned a value but never used  no-unused-vars
+  10:20  warning  'setMissions' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/replit-patch.js
+  10:3   error    'console' is not defined                          no-undef
+  10:3   warning  Unexpected console statement                      no-console
+  13:27  error    'window' is not defined                           no-undef
+  14:9   warning  'currentPort' is assigned a value but never used  no-unused-vars
+  14:9   warning  'currentPort' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  14:23  error    'window' is not defined                           no-undef
+  14:48  error    'window' is not defined                           no-undef
+  15:27  error    'window' is not defined                           no-undef
+  18:3   error    'window' is not defined                           no-undef
+  18:33  error    'window' is not defined                           no-undef
+  19:3   error    'window' is not defined                           no-undef
+  27:3   error    'console' is not defined                          no-undef
+  27:3   warning  Unexpected console statement                      no-console
+  27:41  error    'window' is not defined                           no-undef
+  37:5   error    'console' is not defined                          no-undef
+  37:5   warning  Unexpected console statement                      no-console
+  40:31  error    'window' is not defined                           no-undef
+  41:5   error    'window' is not defined                           no-undef
+  46:27  error    'URL' is not defined                              no-undef
+  53:9   error    'console' is not defined                          no-undef
+  53:9   warning  Unexpected console statement                      no-console
+  60:27  error    'window' is not defined                           no-undef
+  61:5   error    'window' is not defined                           no-undef
+  64:9   error    'console' is not defined                          no-undef
+  64:9   warning  Unexpected console statement                      no-console
+  71:18  error    'document' is not defined                         no-undef
+  74:5   error    'document' is not defined                         no-undef
+  77:3   error    'console' is not defined                          no-undef
+  77:3   warning  Unexpected console statement                      no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/src/vite-config-helper.js
+    9:3   error    'console' is not defined      no-undef
+    9:3   warning  Unexpected console statement  no-console
+   13:29  error    'window' is not defined       no-undef
+   14:29  error    'window' is not defined       no-undef
+   15:25  error    'window' is not defined       no-undef
+   17:5   error    'console' is not defined      no-undef
+   17:5   warning  Unexpected console statement  no-console
+   17:38  error    'window' is not defined       no-undef
+   18:5   error    'console' is not defined      no-undef
+   18:5   warning  Unexpected console statement  no-console
+   19:5   error    'console' is not defined      no-undef
+   19:5   warning  Unexpected console statement  no-console
+   20:5   error    'console' is not defined      no-undef
+   20:5   warning  Unexpected console statement  no-console
+   23:5   error    'window' is not defined       no-undef
+   23:35  error    'window' is not defined       no-undef
+   26:10  error    'window' is not defined       no-undef
+   27:7   error    'window' is not defined       no-undef
+   35:7   error    'console' is not defined      no-undef
+   35:7   warning  Unexpected console statement  no-console
+   35:45  error    'window' is not defined       no-undef
+   40:7   error    'console' is not defined      no-undef
+   40:7   warning  Unexpected console statement  no-console
+   42:21  error    'document' is not defined     no-undef
+   44:19  error    'document' is not defined     no-undef
+   47:9   error    'document' is not defined     no-undef
+   48:9   error    'console' is not defined      no-undef
+   48:9   warning  Unexpected console statement  no-console
+   56:7   error    'console' is not defined      no-undef
+   56:7   warning  Unexpected console statement  no-console
+   59:21  error    'document' is not defined     no-undef
+   61:19  error    'document' is not defined     no-undef
+   64:9   error    'document' is not defined     no-undef
+   65:9   error    'console' is not defined      no-undef
+   65:9   warning  Unexpected console statement  no-console
+   73:7   error    'console' is not defined      no-undef
+   73:7   warning  Unexpected console statement  no-console
+   76:5   error    'console' is not defined      no-undef
+   76:5   warning  Unexpected console statement  no-console
+   78:5   error    'console' is not defined      no-undef
+   78:5   warning  Unexpected console statement  no-console
+   86:20  error    'window' is not defined       no-undef
+  102:25  error    'window' is not defined       no-undef
+  104:3   error    'window' is not defined       no-undef
+  106:31  error    'window' is not defined       no-undef
+  107:31  error    'window' is not defined       no-undef
+  114:7   error    'console' is not defined      no-undef
+  114:7   warning  Unexpected console statement  no-console
+  121:3   error    'console' is not defined      no-undef
+  121:3   warning  Unexpected console statement  no-console
+  128:19  error    'document' is not defined     no-undef
+  134:7   error    'console' is not defined      no-undef
+  134:7   warning  Unexpected console statement  no-console
+  144:29  error    'window' is not defined       no-undef
+  147:3   error    'window' is not defined       no-undef
+  152:27  error    'URL' is not defined          no-undef
+  156:33  error    'window' is not defined       no-undef
+  159:9   error    'console' is not defined      no-undef
+  159:9   warning  Unexpected console statement  no-console
+  162:9   error    'console' is not defined      no-undef
+  162:9   warning  Unexpected console statement  no-console
+  174:7   error    'window' is not defined       no-undef
+  177:3   error    'window' is not defined       no-undef
+  179:3   error    'console' is not defined      no-undef
+  179:3   warning  Unexpected console statement  no-console
+  186:1   error    'window' is not defined       no-undef
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/vite.config.local.ts
+  1:24  warning  'loadEnv' is defined but never used             no-unused-vars
+  1:24  warning  'loadEnv' is defined but never used             @typescript-eslint/no-unused-vars
+  7:7   warning  '__dirname' is assigned a value but never used  no-unused-vars
+  7:7   warning  '__dirname' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/client/vite.server.js
+   2:1   error    'window' is not defined       no-undef
+   2:31  error    'window' is not defined       no-undef
+   5:1   error    'window' is not defined       no-undef
+  17:1   error    'window' is not defined       no-undef
+  17:34  error    'window' is not defined       no-undef
+  19:1   error    'console' is not defined      no-undef
+  19:1   warning  Unexpected console statement  no-console
+  19:62  error    'window' is not defined       no-undef
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/public/sw.js
+   3:1   error    'console' is not defined                                                 no-undef
+   3:1   warning  Unexpected console statement                                             no-console
+   5:1   error    'self' is not defined                                                    no-undef
+   5:34  warning  'event' is defined but never used                                        no-unused-vars
+   5:34  warning  'event' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+   6:3   error    'self' is not defined                                                    no-undef
+   9:1   error    'self' is not defined                                                    no-undef
+  11:21  error    'fetch' is not defined                                                   no-undef
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/auth.ts
+   3:38  warning  'NextFunction' is defined but never used                          no-unused-vars
+   3:38  warning  'NextFunction' is defined but never used                          @typescript-eslint/no-unused-vars
+   9:16  warning  'uuidv4' is defined but never used                                no-unused-vars
+   9:16  warning  'uuidv4' is defined but never used                                @typescript-eslint/no-unused-vars
+  12:3   error    ES2015 module syntax is preferred over namespaces                 @typescript-eslint/no-namespace
+  13:15  error    An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+  20:16  warning  'hashPassword' is defined but never used                          no-unused-vars
+  20:16  warning  'hashPassword' is defined but never used                          @typescript-eslint/no-unused-vars
+  27:16  warning  'comparePasswords' is defined but never used                      no-unused-vars
+  27:16  warning  'comparePasswords' is defined but never used                      @typescript-eslint/no-unused-vars
+  66:3   warning  Unexpected console statement                                      no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/db.ts
+    1:10  warning  'Pool' is defined but never used                                             no-unused-vars
+    1:10  warning  'Pool' is defined but never used                                             @typescript-eslint/no-unused-vars        
+    2:10  warning  'drizzle' is defined but never used                                          no-unused-vars
+    2:10  warning  'drizzle' is defined but never used                                          @typescript-eslint/no-unused-vars        
+    4:13  warning  'schema' is defined but never used                                           no-unused-vars
+    4:13  warning  'schema' is defined but never used                                           @typescript-eslint/no-unused-vars        
+    9:1   warning  Unexpected console statement                                                 no-console
+   19:7   warning  'isReplit' is assigned a value but never used                                no-unused-vars
+   19:7   warning  'isReplit' is assigned a value but never used                                @typescript-eslint/no-unused-vars        
+   29:3   warning  Unexpected console statement                                                 no-console
+   49:26  warning  'str' is defined but never used                                              no-unused-vars
+   49:26  warning  'str' is defined but never used. Allowed unused args must match /^_/u        @typescript-eslint/no-unused-vars        
+   50:23  warning  'str' is defined but never used                                              no-unused-vars
+   50:23  warning  'str' is defined but never used. Allowed unused args must match /^_/u        @typescript-eslint/no-unused-vars        
+   52:25  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   53:44  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   54:35  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   55:35  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   57:33  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   58:24  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   59:26  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   60:36  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   61:25  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   62:40  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   63:37  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   69:37  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   70:41  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   96:12  warning  'table' is defined but never used                                            no-unused-vars
+   96:12  warning  'table' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars        
+   96:19  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+   97:15  warning  'condition' is defined but never used                                        no-unused-vars
+   97:15  warning  'condition' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+   97:26  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  100:12  warning  'table' is defined but never used                                            no-unused-vars
+  100:12  warning  'table' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars        
+  100:19  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  101:14  warning  'data' is defined but never used                                             no-unused-vars
+  101:14  warning  'data' is defined but never used. Allowed unused args must match /^_/u       @typescript-eslint/no-unused-vars        
+  101:20  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  105:12  warning  'table' is defined but never used                                            no-unused-vars
+  105:12  warning  'table' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars
+  105:19  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  106:11  warning  'data' is defined but never used                                             no-unused-vars
+  106:11  warning  'data' is defined but never used. Allowed unused args must match /^_/u       @typescript-eslint/no-unused-vars        
+  106:17  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  107:15  warning  'condition' is defined but never used                                        no-unused-vars
+  107:15  warning  'condition' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+  107:26  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  112:12  warning  'table' is defined but never used                                            no-unused-vars
+  112:12  warning  'table' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars        
+  112:19  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  113:13  warning  'condition' is defined but never used                                        no-unused-vars
+  113:13  warning  'condition' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars        
+  113:24  error    Unexpected any. Specify a different type                                     @typescript-eslint/no-explicit-any       
+  120:1   warning  Unexpected console statement                                                 no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/index.ts
+   9:1  warning  Unexpected console statement  no-console
+  31:1  warning  Unexpected console statement  no-console
+  53:5  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/proxy-server.ts
+  13:3   warning  Unexpected console statement                       no-console
+  16:9   warning  'clientSrcDir' is assigned a value but never used  no-unused-vars
+  16:9   warning  'clientSrcDir' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  27:7   warning  Unexpected console statement                       no-console
+  30:7   warning  Unexpected console statement                       no-console
+  42:54  error    Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  48:9   warning  Unexpected console statement                       no-console
+  52:7   warning  Unexpected console statement                       no-console
+  57:3   warning  Unexpected console statement                       no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/replit-config.ts
+  29:5  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/routes.ts
+    1:8  warning  'express' is defined but never used  no-unused-vars
+    1:8  warning  'express' is defined but never used  @typescript-eslint/no-unused-vars
+  222:3  warning  Unexpected console statement         no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/services/email.ts
+   22:7  warning  Unexpected console statement  no-console
+   25:9  warning  Unexpected console statement  no-console
+   51:7  warning  Unexpected console statement  no-console
+   66:7  warning  Unexpected console statement  no-console
+   69:9  warning  Unexpected console statement  no-console
+   97:7  warning  Unexpected console statement  no-console
+  111:7  warning  Unexpected console statement  no-console
+  135:7  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/storage.ts
+    2:70  warning  'InsertRealm' is defined but never used   no-unused-vars
+    2:70  warning  'InsertRealm' is defined but never used   @typescript-eslint/no-unused-vars
+    9:11  warning  'id' is defined but never used            no-unused-vars
+   10:19  warning  'userId' is defined but never used        no-unused-vars
+   11:21  warning  'username' is defined but never used      no-unused-vars
+   12:18  warning  'email' is defined but never used         no-unused-vars
+   13:14  warning  'user' is defined but never used          no-unused-vars
+   14:14  warning  'userId' is defined but never used        no-unused-vars
+   14:30  warning  'userData' is defined but never used      no-unused-vars
+   15:22  warning  'userId' is defined but never used        no-unused-vars
+   15:38  warning  'progress' is defined but never used      no-unused-vars
+   15:48  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   19:16  warning  'id' is defined but never used            no-unused-vars
+   20:15  warning  'id' is defined but never used            no-unused-vars
+   20:27  warning  'realmData' is defined but never used     no-unused-vars
+   24:15  warning  'realmId' is defined but never used       no-unused-vars
+   25:18  warning  'id' is defined but never used            no-unused-vars
+   26:17  warning  'mission' is defined but never used       no-unused-vars
+   27:17  warning  'id' is defined but never used            no-unused-vars
+   27:29  warning  'mission' is defined but never used       no-unused-vars
+   31:20  warning  'realmId' is defined but never used       no-unused-vars
+   32:16  warning  'id' is defined but never used            no-unused-vars
+   33:15  warning  'badge' is defined but never used         no-unused-vars
+   36:17  warning  'userId' is defined but never used        no-unused-vars
+   37:20  warning  'userId' is defined but never used        no-unused-vars
+   37:36  warning  'badgeId' is defined but never used       no-unused-vars
+  146:54  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  244:7   warning  Unexpected console statement              no-console
+  246:7   warning  Unexpected console statement              no-console
+  373:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  424:64  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  441:54  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  486:41  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  487:9   warning  Unexpected console statement              no-console
+  493:28  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  505:7   warning  Unexpected console statement              no-console
+  507:7   warning  Unexpected console statement              no-console
+  533:66  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  574:62  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  608:13  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  625:1   warning  Unexpected console statement              no-console
+  636:9   warning  Unexpected console statement              no-console
+  643:5   warning  Unexpected console statement              no-console
+  645:5   warning  Unexpected console statement              no-console
+  653:5   warning  Unexpected console statement              no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/server/vite.ts
+   24:3  warning  Unexpected console statement  no-console
+   56:5  warning  Unexpected console statement  no-console
+   95:5  warning  Unexpected console statement  no-console
+  102:9  warning  Unexpected console statement  no-console
+  106:7  warning  Unexpected console statement  no-console
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/tailwind.config.ts
+  91:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  91:45  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/mnt/c/Users/Admin/Desktop/Course/New-course/vite.frontend.config.ts
+  15:30  error    A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  22:5   warning  Unexpected console statement             no-console
+
+✖ 697 problems (182 errors, 515 warnings)

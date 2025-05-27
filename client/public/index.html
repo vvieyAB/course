@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asha's Journey - Bitcoin Education</title>
+  <meta name="description" content="Learn about Bitcoin through an interactive, narrative-driven educational experience with African cultural influences.">
+  <link rel="icon" href="/favicon.ico">
+  
+  <!-- Vite configuration helper for Replit environment -->
+  <script type="module" src="/src/vite-config-helper.js"></script>
+  
+  <script>
+    // Development configuration and auth bypass
+    window.__DEV_MODE__ = true;
+    window.__BYPASS_AUTH__ = true;
+    window.__UNLOCK_ALL_REALMS__ = true;
+    
+    // Make sure we're authenticated
+    localStorage.setItem('ashaJourneyUserData', JSON.stringify({
+      username: 'Developer',
+      completedMissions: [],
+      unlockedRealms: [1, 2, 3, 4, 5, 6, 7],
+      earnedBadges: [],
+      currentRealm: 1
+    }));
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    // Redirect to the map page after the application loads
+    window.onload = function() {
+      if (window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname === '/dev-mode') {
+        window.location.href = '/map';
+      }
+    };
+  </script>
+  
+  <style>
+    .dev-panel {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: rgba(50, 50, 50, 0.9);
+      color: white;
+      border-radius: 8px;
+      padding: 15px;
+      z-index: 9999;
+      font-family: 'Arial', sans-serif;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      max-width: 300px;
+    }
+    .dev-panel h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #fcd34d;
+    }
+    .dev-panel ul {
+      padding-left: 20px;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    .dev-panel a {
+      display: block;
+      padding: 8px 12px;
+      background: #fcd34d;
+      color: #333;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+  
+  <script>
+    // Add a development panel after the page loads
+    window.addEventListener('DOMContentLoaded', function() {
+      // Create dev panel element
+      const devPanel = document.createElement('div');
+      devPanel.className = 'dev-panel';
+      devPanel.innerHTML = `
+        <h3>Development Mode</h3>
+        <ul>
+          <li>All realms unlocked</li>
+          <li>Authentication bypassed</li>
+          <li>Using direct static serving</li>
+        </ul>
+        <a href="/map">Go to Map</a>
+      `;
+      
+      // Add to body after a slight delay to ensure body is ready
+      setTimeout(function() {
+        document.body.appendChild(devPanel);
+      }, 1000);
+    });
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

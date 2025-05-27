@@ -1,0 +1,23 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/auth.ts",
+	"owner": "typescript",
+	"code": "2345",
+	"severity": 8,
+	"message": "Argument of type '{ id: number; userId: string; username: string; password: string; email: string; progress: { currentRealm: number; completedRealms: never[]; missionsCompleted: never[]; chain: { progress: number; lastUpdated: string; }; }; rewards: { ...; }; }' is not assignable to parameter of type 'false | User | undefined'.\n  Type '{ id: number; userId: string; username: string; password: string; email: string; progress: { currentRealm: number; completedRealms: never[]; missionsCompleted: never[]; chain: { progress: number; lastUpdated: string; }; }; rewards: { ...; }; }' is missing the following properties from type '{ id: number; username: string; password: string; email: string | null; progress: unknown; userId: string; emailVerified: boolean | null; verificationCode: string | null; verificationCodeExpiry: Date | null; resetToken: string | null; resetTokenExpiry: Date | null; lastLogin: Date | null; rewards: unknown; }': emailVerified, verificationCode, verificationCodeExpiry, resetToken, and 2 more.",
+	"source": "ts",
+	"startLineNumber": 81,
+	"startColumn": 25,
+	"endLineNumber": 81,
+	"endColumn": 33
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/auth.ts",
+	"owner": "typescript",
+	"code": "2345",
+	"severity": 8,
+	"message": "Argument of type '{ id: number; userId: string; username: string; password: string; email: string; progress: { currentRealm: number; completedRealms: never[]; missionsCompleted: never[]; chain: { progress: number; lastUpdated: string; }; }; rewards: { ...; }; }' is not assignable to parameter of type 'false | User | null | undefined'.\n  Type '{ id: number; userId: string; username: string; password: string; email: string; progress: { currentRealm: number; completedRealms: never[]; missionsCompleted: never[]; chain: { progress: number; lastUpdated: string; }; }; rewards: { ...; }; }' is missing the following properties from type '{ id: number; username: string; password: string; email: string | null; progress: unknown; userId: string; emailVerified: boolean | null; verificationCode: string | null; verificationCodeExpiry: Date | null; resetToken: string | null; resetTokenExpiry: Date | null; lastLogin: Date | null; rewards: unknown; }': emailVerified, verificationCode, verificationCodeExpiry, resetToken, and 2 more.",
+	"source": "ts",
+	"startLineNumber": 112,
+	"startColumn": 16,
+	"endLineNumber": 112,
+	"endColumn": 24
+}]

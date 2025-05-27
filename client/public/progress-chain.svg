@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#1A1814" fill-opacity="0"/>
+  
+  <!-- Inactive Chain -->
+  <path d="M50 200C150 100 250 300 350 200C450 100 550 300 650 200C750 100" stroke="#444444" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Active Chain (first 30%) -->
+  <path d="M50 200C150 100 250 300 350 200" stroke="#FFC567" stroke-width="15" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Chain nodes inactive -->
+  <circle cx="50" cy="200" r="15" fill="#1A1814" stroke="#444444" stroke-width="4"/>
+  <circle cx="350" cy="200" r="15" fill="#1A1814" stroke="#444444" stroke-width="4"/>
+  <circle cx="650" cy="200" r="15" fill="#1A1814" stroke="#444444" stroke-width="4"/>
+  
+  <!-- Chain nodes active (first two) -->
+  <circle cx="50" cy="200" r="15" fill="#1A1814" stroke="#FFC567" stroke-width="4">
+    <animate attributeName="stroke-opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="150" r="15" fill="#1A1814" stroke="#FFC567" stroke-width="4">
+    <animate attributeName="stroke-opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Realm nodes inactive -->
+  <circle cx="350" cy="200" r="25" fill="#444444"/>
+  <circle cx="500" cy="150" r="25" fill="#444444"/>
+  <circle cx="650" cy="200" r="25" fill="#444444"/>
+  
+  <!-- Realm nodes active (first two) -->
+  <circle cx="50" cy="200" r="25" fill="#EE720B">
+    <animate attributeName="fill-opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="150" r="25" fill="#EE720B">
+    <animate attributeName="fill-opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Node Labels-->
+  <text x="50" y="205" font-family="sans-serif" font-size="16" fill="#1A1814" text-anchor="middle" font-weight="bold">1</text>
+  <text x="200" y="155" font-family="sans-serif" font-size="16" fill="#1A1814" text-anchor="middle" font-weight="bold">2</text>
+  <text x="350" y="205" font-family="sans-serif" font-size="16" fill="#FBF4D2" text-anchor="middle" font-weight="bold">3</text>
+  <text x="500" y="155" font-family="sans-serif" font-size="16" fill="#FBF4D2" text-anchor="middle" font-weight="bold">4</text>
+  <text x="650" y="205" font-family="sans-serif" font-size="16" fill="#FBF4D2" text-anchor="middle" font-weight="bold">5</text>
+  
+  <!-- Realm Name Labels-->
+  <text x="50" y="250" font-family="sans-serif" font-size="14" fill="#FFC567" text-anchor="middle" font-weight="bold">Realm of</text>
+  <text x="50" y="270" font-family="sans-serif" font-size="14" fill="#FFC567" text-anchor="middle" font-weight="bold">Origins</text>
+  
+  <text x="200" y="100" font-family="sans-serif" font-size="14" fill="#FFC567" text-anchor="middle" font-weight="bold">The Forest</text>
+  <text x="200" y="120" font-family="sans-serif" font-size="14" fill="#FFC567" text-anchor="middle" font-weight="bold">of Sparks</text>
+  
+  <text x="350" y="250" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">The Central</text>
+  <text x="350" y="270" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">Citadel</text>
+  
+  <text x="500" y="100" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">The Council</text>
+  <text x="500" y="120" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">of Forks</text>
+  
+  <text x="650" y="250" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">The Ubuntu</text>
+  <text x="650" y="270" font-family="sans-serif" font-size="14" fill="#888" text-anchor="middle" font-weight="bold">Village</text>
+  
+  <!-- Status labels -->
+  <rect x="30" y="290" width="40" height="20" rx="10" fill="#EE720B" fill-opacity="0.2"/>
+  <text x="50" y="304" font-family="sans-serif" font-size="10" fill="#EE720B" text-anchor="middle">COMPLETED</text>
+  
+  <rect x="180" y="80" width="40" height="20" rx="10" fill="#EE720B" fill-opacity="0.2"/>
+  <text x="200" y="94" font-family="sans-serif" font-size="10" fill="#EE720B" text-anchor="middle">IN PROGRESS</text>
+  
+  <rect x="330" y="290" width="40" height="20" rx="10" fill="#444444" fill-opacity="0.3"/>
+  <text x="350" y="304" font-family="sans-serif" font-size="10" fill="#888" text-anchor="middle">LOCKED</text>
+  
+  <rect x="480" y="80" width="40" height="20" rx="10" fill="#444444" fill-opacity="0.3"/>
+  <text x="500" y="94" font-family="sans-serif" font-size="10" fill="#888" text-anchor="middle">LOCKED</text>
+  
+  <rect x="630" y="290" width="40" height="20" rx="10" fill="#444444" fill-opacity="0.3"/>
+  <text x="650" y="304" font-family="sans-serif" font-size="10" fill="#888" text-anchor="middle">LOCKED</text>
+</svg>

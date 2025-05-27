@@ -1,0 +1,106 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx",
+	"owner": "typescript",
+	"code": "2551",
+	"severity": 8,
+	"message": "Property 'accent' does not exist on type '{ primary: string; secondary: string; background: string; backgroundLight: string; cardBackground?: string | undefined; textDark: string; textLight: string; accent1?: string | undefined; ... 6 more ...; gradientEnd?: string | undefined; }'. Did you mean 'accent1'?",
+	"source": "ts",
+	"startLineNumber": 145,
+	"startColumn": 66,
+	"endLineNumber": 145,
+	"endColumn": 72,
+	"relatedInformation": [
+		{
+			"startLineNumber": 12,
+			"startColumn": 5,
+			"endLineNumber": 12,
+			"endColumn": 12,
+			"message": "'accent1' is declared here.",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/lib/realm-themes.ts"
+		}
+	]
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx",
+	"owner": "typescript",
+	"code": "2551",
+	"severity": 8,
+	"message": "Property 'accent' does not exist on type '{ primary: string; secondary: string; background: string; backgroundLight: string; cardBackground?: string | undefined; textDark: string; textLight: string; accent1?: string | undefined; ... 6 more ...; gradientEnd?: string | undefined; }'. Did you mean 'accent1'?",
+	"source": "ts",
+	"startLineNumber": 158,
+	"startColumn": 136,
+	"endLineNumber": 158,
+	"endColumn": 142,
+	"relatedInformation": [
+		{
+			"startLineNumber": 12,
+			"startColumn": 5,
+			"endLineNumber": 12,
+			"endColumn": 12,
+			"message": "'accent1' is declared here.",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/lib/realm-themes.ts"
+		}
+	]
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx",
+	"owner": "typescript",
+	"code": "2551",
+	"severity": 8,
+	"message": "Property 'accent' does not exist on type '{ primary: string; secondary: string; background: string; backgroundLight: string; cardBackground?: string | undefined; textDark: string; textLight: string; accent1?: string | undefined; ... 6 more ...; gradientEnd?: string | undefined; }'. Did you mean 'accent1'?",
+	"source": "ts",
+	"startLineNumber": 162,
+	"startColumn": 136,
+	"endLineNumber": 162,
+	"endColumn": 142,
+	"relatedInformation": [
+		{
+			"startLineNumber": 12,
+			"startColumn": 5,
+			"endLineNumber": 12,
+			"endColumn": 12,
+			"message": "'accent1' is declared here.",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/lib/realm-themes.ts"
+		}
+	]
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx",
+	"owner": "typescript",
+	"code": "2551",
+	"severity": 8,
+	"message": "Property 'accent' does not exist on type '{ primary: string; secondary: string; background: string; backgroundLight: string; cardBackground?: string | undefined; textDark: string; textLight: string; accent1?: string | undefined; ... 6 more ...; gradientEnd?: string | undefined; }'. Did you mean 'accent1'?",
+	"source": "ts",
+	"startLineNumber": 166,
+	"startColumn": 136,
+	"endLineNumber": 166,
+	"endColumn": 142,
+	"relatedInformation": [
+		{
+			"startLineNumber": 12,
+			"startColumn": 5,
+			"endLineNumber": 12,
+			"endColumn": 12,
+			"message": "'accent1' is declared here.",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/lib/realm-themes.ts"
+		}
+	]
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/hashing-simulator.tsx",
+	"owner": "typescript",
+	"code": "2551",
+	"severity": 8,
+	"message": "Property 'accent' does not exist on type '{ primary: string; secondary: string; background: string; backgroundLight: string; cardBackground?: string | undefined; textDark: string; textLight: string; accent1?: string | undefined; ... 6 more ...; gradientEnd?: string | undefined; }'. Did you mean 'accent1'?",
+	"source": "ts",
+	"startLineNumber": 170,
+	"startColumn": 136,
+	"endLineNumber": 170,
+	"endColumn": 142,
+	"relatedInformation": [
+		{
+			"startLineNumber": 12,
+			"startColumn": 5,
+			"endLineNumber": 12,
+			"endColumn": 12,
+			"message": "'accent1' is declared here.",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/lib/realm-themes.ts"
+		}
+	]
+}]

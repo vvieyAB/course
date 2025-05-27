@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#1A2C2A"/>
+  
+  <!-- Background pattern -->
+  <path d="M0 0L400 400" stroke="#25483F" stroke-width="0.5" />
+  <path d="M400 0L0 400" stroke="#25483F" stroke-width="0.5" />
+  <path d="M200 0V400" stroke="#25483F" stroke-width="0.5" />
+  <path d="M0 200H400" stroke="#25483F" stroke-width="0.5" />
+  
+  <!-- Circle background -->
+  <circle cx="200" cy="180" r="150" fill="#25483F"/>
+  
+  <!-- Hair -->
+  <path d="M120 180 Q 200 50 280 180" fill="#221605"/>
+  <path d="M120 180 Q 120 120 150 80" fill="#221605"/>
+  <path d="M280 180 Q 280 120 250 80" fill="#221605"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="190" rx="80" ry="90" fill="#693D1B"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="170" rx="12" ry="7" fill="#221605"/>
+  <ellipse cx="230" cy="170" rx="12" ry="7" fill="#221605"/>
+  <ellipse cx="170" cy="170" rx="4" ry="4" fill="#000000"/>
+  <ellipse cx="230" cy="170" rx="4" ry="4" fill="#000000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M160 155 Q 170 150 180 155" stroke="#221605" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220 155 Q 230 150 240 155" stroke="#221605" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M200 185 Q 205 195 200 205" stroke="#442209" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M180 220 Q 200 230 220 220" fill="none" stroke="#442209" stroke-width="2"/>
+  
+  <!-- Earrings -->
+  <circle cx="120" cy="190" r="8" fill="#FFC567"/>
+  <circle cx="280" cy="190" r="8" fill="#FFC567"/>
+  
+  <!-- Shoulders -->
+  <path d="M120 280 Q 200 330 280 280" fill="#EE720B"/>
+  
+  <!-- Necklace -->
+  <path d="M150 270 Q 200 290 250 270" stroke="#FFC567" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="200" cy="280" r="7" fill="#FFC567"/>
+  
+  <!-- African patterns on clothing -->
+  <path d="M170 300 L 180 290 L 190 300" stroke="#FFC567" stroke-width="1.5"/>
+  <path d="M210 300 L 220 290 L 230 300" stroke="#FFC567" stroke-width="1.5"/>
+  <circle cx="150" cy="305" r="5" stroke="#FFC567" stroke-width="1.5" fill="none"/>
+  <circle cx="250" cy="305" r="5" stroke="#FFC567" stroke-width="1.5" fill="none"/>
+  
+  <!-- Name -->
+  <rect x="120" y="350" width="160" height="40" rx="20" fill="#25483F"/>
+  <text x="200" y="375" font-family="sans-serif" font-size="24" fill="#FFC567" text-anchor="middle" font-weight="bold">ASHA</text>
+</svg>

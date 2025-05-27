@@ -1,0 +1,99 @@
+Application starting - initializing React...
+main.tsx:24 React app rendered successfully
+App.tsx:35 Current location: /realm3
+chunk-WRD5HZVH.js?v=afadf79d:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:337:18
+    at div
+    at MotionComponent (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/framer-motion.js?v=afadf79d:6565:40)
+    at div
+    at MotionComponent (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/framer-motion.js?v=afadf79d:6565:40)
+    at div
+    at div
+    at div
+    at Realm3Home (http://localhost:5000/src/pages/realm3/home.tsx:26:47)
+    at Route (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:323:16)
+    at Switch (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5000/src/context/AuthContext.tsx:54:32)
+    at App
+printWarning @ chunk-WRD5HZVH.js?v=afadf79d:521Understand this error
+App.tsx:35 Current location: /realm3/mission/300
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 300
+mission.tsx:23 Realm 3 Mission - Loading mission: 300
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 600 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/301
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 301
+mission.tsx:23 Realm 3 Mission - Loading mission: 301
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 601 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/2
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 2
+mission.tsx:23 Realm 3 Mission - Loading mission: 2
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 302 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/3
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 3
+mission.tsx:23 Realm 3 Mission - Loading mission: 3
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 303 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/4
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 4
+mission.tsx:23 Realm 3 Mission - Loading mission: 4
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 304 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/5
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 5
+mission.tsx:23 Realm 3 Mission - Loading mission: 5
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 305 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/6
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 6
+mission.tsx:23 Realm 3 Mission - Loading mission: 6
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 306 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/7
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 7
+mission.tsx:23 Realm 3 Mission - Loading mission: 7
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 307 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error
+App.tsx:35 Current location: /realm3
+mission.tsx:23 Realm 3 Mission - Loading mission: 1
+mission.tsx:24 Route matches: Object
+App.tsx:35 Current location: /realm3/mission/300
+mission-wrapper.tsx:15 Realm3MissionWrapper: Initializing with missionId: 300
+mission.tsx:23 Realm 3 Mission - Loading mission: 300
+mission.tsx:24 Route matches: Object
+mission.tsx:32 Mission with ID 600 not found in realm3-missions data
+(anonymous) @ mission.tsx:32Understand this error

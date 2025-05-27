@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Education - Journey Through the Realms</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="generated-icon.png">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Learn Bitcoin through interactive education - Journey through realms of knowledge">
+    <meta name="keywords" content="Bitcoin, cryptocurrency, education, blockchain, Africa">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bitcoin Education Journey">
+    <meta property="og:description" content="Interactive Bitcoin education through immersive realms">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- App Container -->
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="public/assets/characters/asha.svg" alt="Asha" class="nav-logo">
+                    <span class="nav-title">Bitcoin Education</span>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#" class="nav-link" data-route="home">Home</a>
+                    <a href="#" class="nav-link" data-route="realms">Realms</a>
+                    <a href="#" class="nav-link" data-route="mission">Mission</a>
+                    <a href="#" class="nav-link" data-route="progress">Progress</a>
+                    <a href="#" class="nav-link" data-route="about">About</a>
+                </div>
+
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content" class="main-content">
+            <!-- Page content will be injected here by the router -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Bitcoin Education Journey. Learn, Explore, Understand.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading Bitcoin Education...</p>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/eventbus.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/simulations.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/pages/home.js"></script>
+    <script src="js/pages/realms.js"></script>
+    <script src="js/pages/mission.js"></script>
+    <script src="js/pages/progress.js"></script>
+    <script src="js/pages/about.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

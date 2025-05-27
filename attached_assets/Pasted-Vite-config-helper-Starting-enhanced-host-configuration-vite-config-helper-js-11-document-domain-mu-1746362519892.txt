@@ -1,0 +1,38 @@
+Vite config helper: Starting enhanced host configuration
+vite-config-helper.js:11 document.domain mutation is ignored because the surrounding agent cluster is origin-keyed.
+configureViteForReplit @ vite-config-helper.js:11
+(anonymous) @ vite-config-helper.js:108Understand this warning
+vite-config-helper.js:19 Current hostname: localhost
+vite-config-helper.js:20 Current protocol: http:
+vite-config-helper.js:70 Updated script src from /@vite/client to http://localhost/@vite/client
+vite-config-helper.js:70 Updated script src from /src/vite-config-helper.js to http://localhost/src/vite-config-helper.js
+vite-config-helper.js:107 Vite host configuration complete
+vite-config-helper.js:90 Patched WebSocket URL from ws://localhost:5000/?token=hRpgT5nIW1ji to ws://localhost:5173/?token=hRpgT5nIW1ji
+vite-config-helper.js:94 WebSocket connection to 'ws://localhost:5173/?token=hRpgT5nIW1ji' failed: 
+window.WebSocket @ vite-config-helper.js:94
+setupWebSocket @ client:536
+(anonymous) @ client:531Understand this error
+vite-config-helper.js:94 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'ws://localhost:undefined/?token=hRpgT5nIW1ji' is invalid.
+    at new window.WebSocket (vite-config-helper.js:94:12)
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+window.WebSocket @ vite-config-helper.js:94
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555Understand this error
+chunk-276SZO74.js?v=ea38453a:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+vite-config-helper.js:6 Vite config helper: Starting enhanced host configuration
+vite-config-helper.js:11 document.domain mutation is ignored because the surrounding agent cluster is origin-keyed.
+configureViteForReplit @ vite-config-helper.js:11
+(anonymous) @ vite-config-helper.js:108Understand this warning
+vite-config-helper.js:19 Current hostname: localhost
+vite-config-helper.js:20 Current protocol: http:
+vite-config-helper.js:70 Updated script src from /src/main.tsx?v=BVncThwfrz5bXyoLV1HND to http://localhost/src/main.tsx?v=BVncThwfrz5bXyoLV1HND
+vite-config-helper.js:107 Vite host configuration complete
+main.tsx:22 Application starting - initializing React...
+main.tsx:29 React app rendered successfully
+App.tsx:35 Current location: /
+App.tsx:46 Redirecting to home page
+App.tsx:35 Current location: /home
+vite.server.js:19 Vite server config loaded with allowed hosts: (14) ['localhost', 'a8c171c4-768d-425a-b69b-4cd1ad4c1947-00-icw0rst19wue.kirk.replit.dev', 'a8c171c4-768d-425a-b69b-4cd1ad4c1947-00-icw0rstl9wue.kirk.replit.dev', 'localhost', 'localhost', '.replit.dev', '.repl.co', '.replit.app', 'localhost', 'workspace', 'a7c0a29bf813', 'a8c171c4-768d-425a-b69b-4cd1ad4c1947-00-icw0rstl9wue.kirk.replit.dev', 'a8c171c4-768d-425a-b69b-4cd1ad4c1947-00-icw0rst19wue.kirk.replit.dev', 'localhost']

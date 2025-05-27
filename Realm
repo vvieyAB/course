@@ -1,0 +1,14 @@
+// Example fix for Realm configuration
+const Realm = require('realm');
+
+const config = {
+  schema: [
+    // Your schema definitions here
+  ],
+  schemaVersion: 1,
+  migration: (oldRealm, newRealm) => {
+    // Migration logic here
+  }
+};
+
+module.exports = config;

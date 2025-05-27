@@ -1,0 +1,89 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2353",
+	"severity": 8,
+	"message": "Object literal may only specify known properties, and 'duration' does not exist in type 'ToastProps'.",
+	"source": "ts",
+	"startLineNumber": 63,
+	"startColumn": 13,
+	"endLineNumber": 63,
+	"endColumn": 21
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2353",
+	"severity": 8,
+	"message": "Object literal may only specify known properties, and 'action' does not exist in type 'ToastProps'.",
+	"source": "ts",
+	"startLineNumber": 74,
+	"startColumn": 13,
+	"endLineNumber": 74,
+	"endColumn": 19
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "7053",
+	"severity": 8,
+	"message": "Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ sm: string; md: string; lg: string; }'.",
+	"source": "ts",
+	"startLineNumber": 102,
+	"startColumn": 7,
+	"endLineNumber": 102,
+	"endColumn": 24
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'size'.",
+	"source": "ts",
+	"startLineNumber": 102,
+	"startColumn": 19,
+	"endLineNumber": 102,
+	"endColumn": 23
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'size'.",
+	"source": "ts",
+	"startLineNumber": 107,
+	"startColumn": 7,
+	"endLineNumber": 107,
+	"endColumn": 11
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'size'.",
+	"source": "ts",
+	"startLineNumber": 107,
+	"startColumn": 37,
+	"endLineNumber": 107,
+	"endColumn": 41
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'className'.",
+	"source": "ts",
+	"startLineNumber": 108,
+	"startColumn": 7,
+	"endLineNumber": 108,
+	"endColumn": 16
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/ui/share-button.tsx",
+	"owner": "typescript",
+	"code": "1128",
+	"severity": 8,
+	"message": "Declaration or statement expected.",
+	"source": "ts",
+	"startLineNumber": 254,
+	"startColumn": 1,
+	"endLineNumber": 254,
+	"endColumn": 2
+}]

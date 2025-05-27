@@ -1,0 +1,78 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'badges' does not exist on type '{}'.",
+	"source": "ts",
+	"startLineNumber": 340,
+	"startColumn": 28,
+	"endLineNumber": 340,
+	"endColumn": 34
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type 'DummyPool' is not assignable to type 'Pool'.\n  The types returned by 'connect()' are incompatible between these types.\n    Type 'Promise<DummyPool>' is not assignable to type 'Promise<PoolClient>'.\n      Type 'DummyPool' is missing the following properties from type 'PoolClient': copyFrom, copyTo, pauseDrain, resumeDrain, and 4 more.",
+	"source": "ts",
+	"startLineNumber": 358,
+	"startColumn": 7,
+	"endLineNumber": 358,
+	"endColumn": 11
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2740",
+	"severity": 8,
+	"message": "Type '{ where: (condition: any) => Promise<never[]>; }' is missing the following properties from type '{ description: string; id: number; name: string; moduleNumber: number; imageUrl: string | null; isLocked: boolean | null; }[]': length, pop, push, concat, and 35 more.",
+	"source": "ts",
+	"startLineNumber": 445,
+	"startColumn": 5,
+	"endLineNumber": 445,
+	"endColumn": 11
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'length' does not exist on type '{ where: (condition: any) => Promise<never[]>; }'.",
+	"source": "ts",
+	"startLineNumber": 457,
+	"startColumn": 26,
+	"endLineNumber": 457,
+	"endColumn": 32
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2554",
+	"severity": 8,
+	"message": "Expected 0 arguments, but got 1.",
+	"source": "ts",
+	"startLineNumber": 463,
+	"startColumn": 24,
+	"endLineNumber": 473,
+	"endColumn": 8
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2740",
+	"severity": 8,
+	"message": "Type '{ where: (condition: any) => Promise<never[]>; }' is missing the following properties from type '{ description: string; id: number; name: string; imageUrl: string | null; realmId: number | null; }[]': length, pop, push, concat, and 35 more.",
+	"source": "ts",
+	"startLineNumber": 521,
+	"startColumn": 5,
+	"endLineNumber": 521,
+	"endColumn": 11
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/storage.ts",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'badges' does not exist on type '{}'.",
+	"source": "ts",
+	"startLineNumber": 581,
+	"startColumn": 28,
+	"endLineNumber": 581,
+	"endColumn": 34
+}]

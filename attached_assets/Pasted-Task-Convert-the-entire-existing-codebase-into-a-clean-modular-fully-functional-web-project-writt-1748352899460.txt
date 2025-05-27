@@ -1,0 +1,151 @@
+Task:
+Convert the entire existing codebase into a clean, modular, fully functional web project written purely in HTML, CSS, and JavaScript. No frameworks or build tools unless explicitly necessary and justified.
+
+1. Project Structure and Content (HTML)
+Structure all content semantically using HTML5 best practices (use <header>, <nav>, <main>, <section>, <article>, <footer>, etc.)
+
+Break content into multiple HTML views/pages or use a single-page app (SPA) approach with client-side routing
+
+Ensure each page or view has meaningful titles (<title> tags) and metadata for SEO
+
+Include accessibility features (ARIA roles, labels, alt attributes for images, keyboard navigation support)
+
+Separate content from presentation and behavior strictly (HTML only for structure and content)
+
+Include navigation menus or breadcrumbs for easy user navigation across views
+
+Use semantic forms and input types with labels for all user input areas
+
+2. Styling and Responsiveness (CSS)
+Write clean, maintainable CSS to style the entire site
+
+Use a main stylesheet (e.g., styles.css) or logically separated stylesheets for layout, components, and utilities
+
+Employ CSS variables (--var-name) for colors, fonts, spacing, and other design tokens to ensure consistency and easy theming
+
+Make layout responsive using media queries to support multiple screen sizes (mobile, tablet, desktop)
+
+Design accessible color schemes with sufficient contrast for readability and inclusivity
+
+Implement all UI component styles including buttons, forms, cards, modals, tooltips, etc.
+
+Add interactive styles for hover, focus, active, disabled states
+
+Use CSS Flexbox and Grid for flexible, modern layout systems
+
+Include smooth transitions/animations for interactive elements where appropriate without overdoing it
+
+3. Client-Side Functionality and Simulations (JavaScript)
+Use vanilla JavaScript (ES6+) with modular, clean, and well-commented code
+
+Implement client-side routing for SPA behavior without page reloads:
+
+Allow navigation between distinct views/pages using URL hash or History API
+
+Support forward/back buttons and deep linking (bookmarkable URLs)
+
+Develop all simulations interactively, fully integrated with the UI:
+
+Simulations should update dynamically based on user input or interaction
+
+Provide visual feedback or animations reflecting simulation state
+
+Separate concerns: routing logic, UI manipulation, simulation logic should reside in distinct modules or clearly organized code blocks
+
+Use event delegation and listeners efficiently for performance
+
+Validate user inputs and handle errors gracefully with user-friendly messages
+
+Ensure all asynchronous operations (if any) have proper loading states and error handling
+
+Implement state management within the app to track progress or simulation states as needed
+
+4. Navigation and Routing
+Navigation menus must update based on current route or user context
+
+Routing must support:
+
+Direct URL access to each view/page (deep linking)
+
+Forward and backward navigation via browser buttons
+
+Programmatic navigation from JS functions
+
+Dynamically load or show/hide HTML content based on current route without full page refresh
+
+Update page metadata (title, description) dynamically on route changes for SEO and usability
+
+5. Performance and Optimization
+Write clean, semantic, and minimal HTML
+
+Optimize CSS by minimizing redundancy and using shorthand where appropriate
+
+Defer or asynchronously load non-critical JavaScript to speed initial render
+
+Minimize DOM manipulations and reflows in JS simulations
+
+Avoid memory leaks by properly cleaning up event listeners and timers
+
+Ensure smooth animations and interactions with performant code
+
+6. Browser Compatibility and Accessibility
+Ensure compatibility with all modern browsers (Chrome, Firefox, Safari, Edge)
+
+Verify the app degrades gracefully on older browsers if necessary
+
+Confirm keyboard accessibility for all interactive components
+
+Use semantic HTML and ARIA roles for screen reader support
+
+Test contrast ratios and font sizes for readability
+
+Make forms usable with screen readers and assistive devices
+
+7. Project Delivery
+Provide all source files in a clear directory structure, e.g.:
+
+bash
+Copy
+Edit
+/project-root
+  /css
+    styles.css
+  /js
+    app.js
+    router.js
+    simulations.js
+  /assets
+    images/
+    fonts/
+  index.html
+  about.html (if multi-page)
+  README.md
+Include a detailed README.md describing:
+
+Project overview and purpose
+
+Setup and installation instructions (if any)
+
+How to run the project locally (e.g., simple http-server or live-server)
+
+Explanation of the routing mechanism
+
+Overview of simulations implemented and how to interact with them
+
+Notes on browser support and accessibility features
+
+Comment the code generously to explain complex logic and overall architecture
+
+Provide fallback or error handling UI for unexpected failures or unsupported browsers
+
+8. Optional Enhancements (if time permits)
+Use CSS custom properties and JS to enable light/dark mode toggle
+
+Implement localStorage or sessionStorage to save user progress or preferences
+
+Add unit tests or test cases for core JS functionalities (optional but recommended)
+
+Include basic analytics/event tracking (privacy-respecting, no third-party unless approved)
+
+Add documentation comments for all major JS functions and modules
+

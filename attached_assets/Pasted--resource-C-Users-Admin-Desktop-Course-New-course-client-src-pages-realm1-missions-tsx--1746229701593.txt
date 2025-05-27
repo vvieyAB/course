@@ -1,0 +1,99 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm1/missions.tsx",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'isLoading' does not exist on type 'AuthContextType'.",
+	"source": "ts",
+	"startLineNumber": 21,
+	"startColumn": 17,
+	"endLineNumber": 21,
+	"endColumn": 26
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm3/consensus-simulator.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'RefreshCw'.",
+	"source": "ts",
+	"startLineNumber": 298,
+	"startColumn": 20,
+	"endLineNumber": 298,
+	"endColumn": 29
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm5/historical-forks-simulator.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'X'.",
+	"source": "ts",
+	"startLineNumber": 596,
+	"startColumn": 36,
+	"endLineNumber": 596,
+	"endColumn": 37
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm6/components/LightningNetwork.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'Check'.",
+	"source": "ts",
+	"startLineNumber": 565,
+	"startColumn": 42,
+	"endLineNumber": 565,
+	"endColumn": 47
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/services/auth.ts",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type 'string | undefined' is not assignable to type 'Date | null | undefined'.\n  Type 'string' is not assignable to type 'Date'.",
+	"source": "ts",
+	"startLineNumber": 95,
+	"startColumn": 7,
+	"endLineNumber": 95,
+	"endColumn": 29,
+	"relatedInformation": [
+		{
+			"startLineNumber": 13,
+			"startColumn": 3,
+			"endLineNumber": 13,
+			"endColumn": 62,
+			"message": "The expected type comes from property 'verificationCodeExpiry' which is declared here on type 'Partial<{ username: string; password: string; progress: Json; userId: string; rewards: Json; email?: string | null | undefined; emailVerified?: boolean | null | undefined; verificationCode?: string | ... 1 more ... | undefined; verificationCodeExpiry?: Date | ... 1 more ... | undefined; resetToken?: string | ... 1 m...'",
+			"resource": "/c:/Users/Admin/Desktop/Course/New-course/shared/schema.ts"
+		}
+	]
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/services/auth.ts",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type 'string' is not assignable to type 'Date'.",
+	"source": "ts",
+	"startLineNumber": 189,
+	"startColumn": 7,
+	"endLineNumber": 189,
+	"endColumn": 29
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/services/auth.ts",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type 'string' is not assignable to type 'Date'.",
+	"source": "ts",
+	"startLineNumber": 217,
+	"startColumn": 7,
+	"endLineNumber": 217,
+	"endColumn": 23
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/server/services/auth.ts",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type 'string' is not assignable to type 'Date'.",
+	"source": "ts",
+	"startLineNumber": 276,
+	"startColumn": 7,
+	"endLineNumber": 276,
+	"endColumn": 16
+}]

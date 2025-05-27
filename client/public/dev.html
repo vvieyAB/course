@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asha's Journey Through the Realms of Money - Learn about Bitcoin through an interactive educational experience">
+  <title>Asha's Journey</title>
+  
+  <!-- Development flags -->
+  <meta name="development-mode" content="true">
+  <meta name="bypass-auth" content="true">
+  <meta name="unlock-all-realms" content="true">
+  <meta name="vite-allowed-host" content="localhost">
+  
+  <!-- Configuration for Vite in development -->
+  <script type="module">
+    // Development environment configuration
+    window.__DEV_MODE__ = true;
+    window.__BYPASS_AUTH__ = true;
+    window.__UNLOCK_ALL_REALMS__ = true;
+    
+    // Import the Vite config helper for host configuration
+    import('/src/vite-config-helper.js')
+      .then(() => console.log("Development configuration applied"))
+      .catch(err => console.error("Failed to load configuration helper:", err));
+  </script>
+  
+  <!-- Import the React application entry point -->
+  <script type="module" src="/src/main.tsx"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

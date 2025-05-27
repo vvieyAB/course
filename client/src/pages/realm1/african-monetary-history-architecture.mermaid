@@ -1,0 +1,79 @@
+flowchart TD
+    subgraph "Frontend Application"
+        User((User))
+        UI["UI Layer"]
+        
+        subgraph "Components Layer"
+            Core["Core Components"]
+            Mission["Mission Components"]
+            Simulations["Interactive Simulations"]
+            Common["Common UI Elements"]
+        end
+        
+        subgraph "State Management"
+            Context["React Context"]
+            Store["Redux Store"]
+        end
+        
+        subgraph "Services"
+            Progress["Progress Tracking"]
+            Animation["Animation Service"]
+            DataProvider["Data Provider"]
+        end
+        
+        subgraph "Assets"
+            Styles["JSS Themes"]
+            Images["SVG/Illustrations"]
+            Animations["Lottie/GSAP Animations"]
+        end
+    end
+    
+    subgraph "Data Layer"
+        MissionData["Mission Data (JSON)"]
+        CharacterData["Character Data (JSON)"]
+        QuizData["Quiz Data (JSON)"]
+        HistoricalData["Historical Events (JSON)"]
+    end
+    
+    %% Connections
+    User --> UI
+    UI --> Core
+    Core --> Mission
+    Core --> Common
+    Mission --> Simulations
+    
+    Mission --> Context
+    Mission --> Store
+    
+    Mission --> Progress
+    Simulations --> Animation
+    Mission --> DataProvider
+    
+    DataProvider --> MissionData
+    DataProvider --> CharacterData
+    DataProvider --> QuizData
+    DataProvider --> HistoricalData
+    
+    Styles --> UI
+    Images --> UI
+    Animations --> UI
+    
+    %% Component Details
+    subgraph "Mission Components Detail"
+        direction LR
+        Mission1["Mission 1.1\nBarter Systems"]
+        Mission2["Mission 1.2"]
+        Mission3["Mission 1.3"]
+        Mission4["Mission 1.4"]
+        Mission5["Mission 1.5"]
+        Mission6["Mission 1.6"]
+        BonusMission["Bonus Mission"]
+    end
+    
+    subgraph "Simulation Components Detail"
+        direction LR
+        BarterWeb["Barter Web\nChallenge"]
+        Inflation["Inflation\nSimulator"]
+        Timeline["Timeline\nBuilder"]
+        Map["Interactive\nMap"]
+    end

@@ -1,0 +1,67 @@
+[{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & MiningSimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & MiningSimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 162,
+	"startColumn": 17,
+	"endLineNumber": 162,
+	"endColumn": 22
+},{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & ConsensusSimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & ConsensusSimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 167,
+	"startColumn": 17,
+	"endLineNumber": 167,
+	"endColumn": 22
+},{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & EnergySimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & EnergySimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 172,
+	"startColumn": 17,
+	"endLineNumber": 172,
+	"endColumn": 22
+},{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & AfricaSimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & AfricaSimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 177,
+	"startColumn": 17,
+	"endLineNumber": 177,
+	"endColumn": 22
+},{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & KnowledgeSimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & KnowledgeSimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 182,
+	"startColumn": 17,
+	"endLineNumber": 182,
+	"endColumn": 22
+},{
+	"resource": "/c:/Users/Admin/Desktop/Course/New-course/client/src/pages/realm4/missions.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ onComplete: () => void; theme: { colors: { primary: string; secondary: string; background: string; backgroundLight: string; success: string; textDark: string; textLight: string; accent1: string; accent2: string; }; gradients: { ...; }; shadows: { ...; }; }; }' is not assignable to type 'IntrinsicAttributes & HalvingSimulatorProps'.\n  Property 'theme' does not exist on type 'IntrinsicAttributes & HalvingSimulatorProps'.",
+	"source": "ts",
+	"startLineNumber": 187,
+	"startColumn": 17,
+	"endLineNumber": 187,
+	"endColumn": 22
+}]

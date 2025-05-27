@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1A2C2A"/>
+  
+  <!-- Background landscape -->
+  <rect x="0" y="150" width="400" height="150" fill="#25483F"/>
+  
+  <!-- Sunrise -->
+  <circle cx="200" cy="150" r="70" fill="#EE720B" opacity="0.3"/>
+  <circle cx="200" cy="150" r="50" fill="#EE720B" opacity="0.5"/>
+  <circle cx="200" cy="150" r="30" fill="#EE720B" opacity="0.7"/>
+  
+  <!-- Ancient cave -->
+  <path d="M120 280L120 180C160 130 240 130 280 180L280 280H120Z" fill="#513B2A"/>
+  <path d="M140 280L140 190C170 150 230 150 260 190L260 280H140Z" fill="#1A2C2A"/>
+  
+  <!-- Ancient symbols on cave wall -->
+  <circle cx="200" cy="220" r="15" stroke="#FFC567" stroke-width="2" fill="none"/>
+  <circle cx="200" cy="220" r="5" fill="#FFC567"/>
+  <path d="M170 210L230 210" stroke="#FFC567" stroke-width="2"/>
+  <path d="M170 230L230 230" stroke="#FFC567" stroke-width="2"/>
+  
+  <!-- Cowrie shells -->
+  <ellipse cx="160" cy="250" rx="10" ry="5" transform="rotate(-15)" fill="#FBF4D2"/>
+  <ellipse cx="240" cy="250" rx="10" ry="5" transform="rotate(15)" fill="#FBF4D2"/>
+  
+  <!-- Primitive tools -->
+  <path d="M130 260L150 240" stroke="#888888" stroke-width="4" stroke-linecap="round"/>
+  <path d="M270 260L250 240" stroke="#888888" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- African symbols floating -->
+  <path d="M60 120L80 100L100 120L80 140Z" stroke="#FFC567" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+  <path d="M300 120L320 100L340 120L320 140Z" stroke="#FFC567" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+  <circle cx="80" cy="80" r="10" stroke="#FFC567" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+  <circle cx="320" cy="80" r="10" stroke="#FFC567" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+  
+  <!-- Title -->
+  <rect x="100" y="40" width="200" height="60" rx="10" fill="#1A2C2A" fill-opacity="0.7"/>
+  <text x="200" y="70" font-family="sans-serif" font-size="20" fill="#FFC567" text-anchor="middle" font-weight="bold">REALM OF</text>
+  <text x="200" y="95" font-family="sans-serif" font-size="28" fill="#FFC567" text-anchor="middle" font-weight="bold">ORIGINS</text>
+  
+  <!-- Module number -->
+  <rect x="140" y="260" width="120" height="30" rx="5" fill="#1A2C2A" fill-opacity="0.8"/>
+  <text x="200" y="280" font-family="sans-serif" font-size="16" fill="#FBF4D2" text-anchor="middle">Module 1</text>
+</svg>

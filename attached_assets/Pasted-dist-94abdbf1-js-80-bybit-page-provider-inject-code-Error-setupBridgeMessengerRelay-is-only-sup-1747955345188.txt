@@ -1,0 +1,126 @@
+dist.94abdbf1.js:80 bybit:page provider inject code 
+Error: `setupBridgeMessengerRelay` is only supported in Content Scripts.
+    at L (bridge-caa487e5.js:3:2973)
+    at index.ts-65790c3e.js:3:430
+chunk-WRD5HZVH.js?v=afadf79d:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+main.tsx:17 Application starting - initializing React...
+main.tsx:24 React app rendered successfully
+App.tsx:38 Current location: /home
+App.tsx:38 Current location: /realm/4
+App.tsx:38 Current location: /realm4/mission/1
+mission-wrapper.tsx:16 Realm4MissionWrapper: Initializing with missionId: 1
+mission.tsx:44 Realm 4: Looking for mission with ID 1
+mission.tsx:45 Available mission IDs: Array(6)
+mission.tsx:50 Found mission: The Power of Proof-of-Work
+chunk-WRD5HZVH.js?v=afadf79d:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:337:18
+    at div
+    at div
+    at div
+    at MissionPage (http://localhost:5001/src/pages/realm4/mission.tsx:28:23)
+    at Realm4MissionWrapper (http://localhost:5001/src/pages/realm4/mission-wrapper.tsx:23:25)
+    at Route (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:323:16)
+    at Switch (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5001/src/context/AuthContext.tsx:81:32)
+    at App
+printWarning @ chunk-WRD5HZVH.js?v=afadf79d:521
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=afadf79d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=afadf79d:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=afadf79d:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+(anonymous) @ main.tsx:55
+QuizChallenge.tsx:180 Uncaught TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=afadf79d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=afadf79d:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=afadf79d:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=afadf79d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=afadf79d:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=afadf79d:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+(anonymous) @ main.tsx:55
+QuizChallenge.tsx:180 Uncaught TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=afadf79d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=afadf79d:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=afadf79d:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+chunk-WRD5HZVH.js?v=afadf79d:14032 The above error occurred in the <QuizChallenge> component:
+
+    at QuizChallenge (http://localhost:5001/src/components/simulations/QuizChallenge.tsx:19:33)
+    at div
+    at div
+    at div
+    at div
+    at MotionComponent (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/framer-motion.js?v=afadf79d:6565:40)
+    at div
+    at div
+    at div
+    at MissionContentWrapper (http://localhost:5001/src/components/ui/mission-content-wrapper.tsx:36:3)
+    at Mission (http://localhost:5001/src/components/missions/Mission.tsx:56:27)
+    at div
+    at div
+    at div
+    at div
+    at MissionPage (http://localhost:5001/src/pages/realm4/mission.tsx:28:23)
+    at Realm4MissionWrapper (http://localhost:5001/src/pages/realm4/mission-wrapper.tsx:23:25)
+    at Route (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:323:16)
+    at Switch (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5001/src/context/AuthContext.tsx:81:32)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-WRD5HZVH.js?v=afadf79d:14032
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=afadf79d:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=afadf79d:18736:28)
+    at performSyncWorkOnRoot (chunk-WRD5HZVH.js?v=afadf79d:18879:28)
+(anonymous) @ main.tsx:55
+chunk-WRD5HZVH.js?v=afadf79d:9129 Uncaught TypeError: Cannot read properties of undefined (reading 'text')
+    at QuizChallenge (QuizChallenge.tsx:180:70)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=afadf79d:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=afadf79d:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=afadf79d:15914:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=afadf79d:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=afadf79d:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=afadf79d:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=afadf79d:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=afadf79d:18736:28)
+    at performSyncWorkOnRoot (chunk-WRD5HZVH.js?v=afadf79d:18879:28)

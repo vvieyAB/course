@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Barter Festival - Asha's Journey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f7f2;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      background-color: #8c4f25;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      margin-top: 0;
+      opacity: 0.8;
+    }
+    .mission-header {
+      background-color: #f0e6d8;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .mission-icon {
+      width: 60px;
+      height: 60px;
+      background-color: #8c4f25;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .mission-info h2 {
+      margin-top: 0;
+      color: #6b4226;
+    }
+    .mission-info p {
+      margin-bottom: 0;
+      color: #666;
+    }
+    .content-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+    .content-header {
+      background-color: #8c4f25;
+      color: white;
+      padding: 1rem 1.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .content-body {
+      padding: 1.5rem;
+      line-height: 1.6;
+    }
+    .character-dialogue {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .character-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #f0e6d8;
+      background-size: cover;
+      background-position: center;
+      flex-shrink: 0;
+    }
+    .dialogue-content {
+      background-color: #f9f6f1;
+      padding: 1rem;
+      border-radius: 8px;
+      position: relative;
+    }
+    .dialogue-content:before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 20px;
+      border-width: 10px 10px 10px 0;
+      border-style: solid;
+      border-color: transparent #f9f6f1 transparent transparent;
+    }
+    .character-name {
+      font-weight: bold;
+      color: #6b4226;
+      margin-bottom: 0.5rem;
+    }
+    .interactive-section {
+      border: 2px solid #e6d8c4;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .interactive-title {
+      font-size: 1.2rem;
+      color: #6b4226;
+      margin-top: 0;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #8c4f25;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+    .button:hover {
+      background-color: #6b3517;
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .quiz-container {
+      margin: 2rem 0;
+    }
+    .quiz-question {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .quiz-option {
+      padding: 1rem;
+      background-color: #f9f6f1;
+      border: 1px solid #e6d8c4;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .quiz-option:hover {
+      background-color: #f0e6d8;
+    }
+    .quiz-option.selected {
+      background-color: #8c4f25;
+      color: white;
+    }
+    .barter-simulation {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .item-card {
+      background-color: #f9f6f1;
+      border: 1px solid #e6d8c4;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .item-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .item-name {
+      font-weight: bold;
+      color: #6b4226;
+    }
+    .item-value {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .dev-panel {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background-color: rgba(50, 50, 50, 0.9);
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      z-index: 100;
+      max-width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .dev-panel h3 {
+      margin-top: 0;
+      font-size: 1rem;
+      color: #fcd34d;
+    }
+    .dev-panel ul {
+      padding-left: 1.5rem;
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>The Barter Festival</h1>
+      <p class="subtitle">Mission 1 - Realm of Origins</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="navigation">
+      <a href="/realm/1" class="button" style="background-color: #666;">Back to Realm</a>
+    </div>
+
+    <div class="mission-header">
+      <div class="mission-icon">1</div>
+      <div class="mission-info">
+        <h2>The Barter Festival</h2>
+        <p>Join Asha at the grand trade festival where goods are exchanged directly without currency. Experience the limitations of the barter system firsthand and understand why more efficient systems were needed.</p>
+      </div>
+    </div>
+    
+    <div class="content-card">
+      <div class="content-header">Learning Content</div>
+      <div class="content-body">
+        <div class="character-dialogue">
+          <div class="character-avatar" style="background-image: url('https://source.unsplash.com/random/200x200/?african,woman');"></div>
+          <div class="dialogue-content">
+            <div class="character-name">Asha</div>
+            <p>Welcome to the Grand Trade Festival! This is where people from all over come to exchange their goods directly with one another, without using any money. This system of direct exchange is called <strong>barter</strong>.</p>
+          </div>
+        </div>
+        
+        <div class="character-dialogue">
+          <div class="character-avatar" style="background-image: url('https://source.unsplash.com/random/200x200/?african,elder');"></div>
+          <div class="dialogue-content">
+            <div class="character-name">Odu</div>
+            <p>Before coins and paper money, our ancestors traded goods and services directly. A farmer might exchange grain for pottery, a herder might trade milk for tools. This is how commerce began thousands of years ago.</p>
+          </div>
+        </div>
+        
+        <h3>Understanding Barter</h3>
+        <p>Barter is a system of exchange where goods or services are directly exchanged for other goods or services without using a medium of exchange, such as money. While simple in concept, barter has several significant limitations:</p>
+        
+        <ol>
+          <li><strong>Double Coincidence of Wants:</strong> For a successful trade, each party must want what the other offers. If a farmer with wheat wants pottery but the potter doesn't need wheat, no trade occurs.</li>
+          <li><strong>Indivisibility of Goods:</strong> Some goods cannot be divided easily for fair trades. How would you exchange a cow for something of lesser value?</li>
+          <li><strong>Lack of a Common Measure of Value:</strong> Without a standard unit to measure worth, it's difficult to determine fair exchange rates between different items.</li>
+          <li><strong>Storage of Value:</strong> Perishable goods lose value over time and cannot store wealth effectively.</li>
+          <li><strong>Transportation Challenges:</strong> Bulky items are difficult to transport for trading purposes.</li>
+        </ol>
+        
+        <div class="character-dialogue">
+          <div class="character-avatar" style="background-image: url('https://source.unsplash.com/random/200x200/?african,woman');"></div>
+          <div class="dialogue-content">
+            <div class="character-name">Asha</div>
+            <p>These limitations of barter are why communities gradually developed more efficient systems of exchange. Let's explore the festival to see these challenges firsthand!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-card">
+      <div class="content-header">Interactive Simulation: Barter Trading</div>
+      <div class="content-body">
+        <p>In this simulation, you're a farmer with wheat who needs various items. Try to obtain all the items you need through barter exchanges.</p>
+        
+        <div class="interactive-section">
+          <h3 class="interactive-title">Your Inventory:</h3>
+          <p>You have: 5 sacks of wheat</p>
+          
+          <h3 class="interactive-title">You Need:</h3>
+          <ul>
+            <li>1 clay pot</li>
+            <li>2 woolen blankets</li>
+            <li>1 iron tool</li>
+            <li>3 salt blocks</li>
+          </ul>
+          
+          <h3 class="interactive-title">Available Traders:</h3>
+          <div class="barter-simulation">
+            <div class="item-card">
+              <div class="item-icon">🏺</div>
+              <div class="item-name">Potter</div>
+              <div class="item-value">Has: Clay pots</div>
+              <div class="item-value">Wants: Salt blocks</div>
+            </div>
+            
+            <div class="item-card">
+              <div class="item-icon">🧶</div>
+              <div class="item-name">Weaver</div>
+              <div class="item-value">Has: Woolen blankets</div>
+              <div class="item-value">Wants: Wheat</div>
+            </div>
+            
+            <div class="item-card">
+              <div class="item-icon">⚒️</div>
+              <div class="item-name">Blacksmith</div>
+              <div class="item-value">Has: Iron tools</div>
+              <div class="item-value">Wants: Meat</div>
+            </div>
+            
+            <div class="item-card">
+              <div class="item-icon">🧂</div>
+              <div class="item-name">Salt Merchant</div>
+              <div class="item-value">Has: Salt blocks</div>
+              <div class="item-value">Wants: Fish</div>
+            </div>
+            
+            <div class="item-card">
+              <div class="item-icon">🐟</div>
+              <div class="item-name">Fisher</div>
+              <div class="item-value">Has: Fish</div>
+              <div class="item-value">Wants: Wheat</div>
+            </div>
+            
+            <div class="item-card">
+              <div class="item-icon">🥩</div>
+              <div class="item-name">Hunter</div>
+              <div class="item-value">Has: Meat</div>
+              <div class="item-value">Wants: Fish</div>
+            </div>
+          </div>
+          
+          <p><strong>Challenge:</strong> What trading sequence would you need to follow to obtain all the items you need?</p>
+          <p>This illustrates the complexity of barter systems and the need for multiple exchanges to obtain desired goods.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-card">
+      <div class="content-header">Knowledge Check</div>
+      <div class="content-body">
+        <div class="quiz-container">
+          <div class="quiz-question">1. What is the "double coincidence of wants" in a barter system?</div>
+          <div class="quiz-options">
+            <div class="quiz-option">A) When both parties want to trade at exactly the same time</div>
+            <div class="quiz-option">B) When both parties must want what the other is offering for trade to occur</div>
+            <div class="quiz-option">C) When both parties must offer items of exactly equal value</div>
+            <div class="quiz-option">D) When two identical items are exchanged</div>
+          </div>
+        </div>
+        
+        <div class="quiz-container">
+          <div class="quiz-question">2. Which of the following is NOT a limitation of the barter system?</div>
+          <div class="quiz-options">
+            <div class="quiz-option">A) Difficulty in storing value</div>
+            <div class="quiz-option">B) Indivisibility of some goods</div>
+            <div class="quiz-option">C) Risk of inflation</div>
+            <div class="quiz-option">D) Transportation challenges for bulky items</div>
+          </div>
+        </div>
+        
+        <div class="quiz-container">
+          <div class="quiz-question">3. Why did early societies eventually move beyond barter systems?</div>
+          <div class="quiz-options">
+            <div class="quiz-option">A) Barter became illegal in most societies</div>
+            <div class="quiz-option">B) The inefficiencies of barter limited economic growth and trade</div>
+            <div class="quiz-option">C) Religious beliefs prohibited direct exchanges</div>
+            <div class="quiz-option">D) Governments mandated the use of standardized currency</div>
+          </div>
+        </div>
+        
+        <button class="button" style="margin-top: 1.5rem;">Check Answers</button>
+      </div>
+    </div>
+    
+    <div class="content-card">
+      <div class="content-header">Reflection</div>
+      <div class="content-body">
+        <div class="character-dialogue">
+          <div class="character-avatar" style="background-image: url('https://source.unsplash.com/random/200x200/?african,elder');"></div>
+          <div class="dialogue-content">
+            <div class="character-name">Odu</div>
+            <p>Having experienced the challenges of barter, what do you think would make for a better system of exchange? What characteristics would an ideal medium of exchange need to have?</p>
+          </div>
+        </div>
+        
+        <div class="interactive-section">
+          <h3 class="interactive-title">Journal Entry</h3>
+          <p>Consider the limitations of barter you've learned about and reflect on what features would be needed in an alternative system to overcome these challenges.</p>
+          <textarea style="width: 100%; height: 120px; margin-top: 1rem; padding: 0.5rem; border: 1px solid #e6d8c4; border-radius: 4px;" placeholder="Write your reflection here..."></textarea>
+          <button class="button" style="margin-top: 1rem;">Save Reflection</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="navigation">
+      <a href="/realm/1" class="button" style="background-color: #666;">Back to Realm</a>
+      <a href="/realm/1/mission/2" class="button">Next Mission: Commodity Money</a>
+    </div>
+  </div>
+  
+  <div class="dev-panel">
+    <h3>Development Status</h3>
+    <ul>
+      <li>Using standalone HTML version</li>
+      <li>All realms unlocked</li>
+      <li>No authentication required</li>
+    </ul>
+  </div>
+</body>
+</html>

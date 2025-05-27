@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1A2C2A"/>
+  
+  <!-- Sky gradient -->
+  <rect width="400" height="150" fill="#1A2C2A"/>
+  <rect x="0" y="150" width="400" height="150" fill="#25483F"/>
+  
+  <!-- Council circular platform -->
+  <ellipse cx="200" cy="200" rx="130" ry="40" fill="#513B2A"/>
+  <ellipse cx="200" cy="190" rx="110" ry="30" fill="#5E4535"/>
+  
+  <!-- Bitcoin symbol -->
+  <circle cx="200" cy="140" r="30" fill="#25483F"/>
+  <path d="M210 130C220 132 220 148 210 150C222 152 222 168 210 170L210 175L190 175L190 170C187 170 183 170 180 169L180 155L190 155L190 145L180 145L180 130L190 130L190 125L210 125L210 130Z" fill="#EE720B"/>
+  <path d="M190 145L205 145C207 145 208 147 206 148L190 148Z" fill="#1A2C2A"/>
+  <path d="M190 155L207 155C210 155 211 157 209 159L190 159Z" fill="#1A2C2A"/>
+  
+  <!-- Left fork -->
+  <path d="M100 150L140 150L160 200L140 250L100 250L80 200Z" fill="#FFC567" opacity="0.3"/>
+  <path d="M110 160L130 160L140 200L130 240L110 240L100 200Z" fill="#25483F"/>
+  <circle cx="120" cy="180" r="5" fill="#EE720B"/>
+  <circle cx="120" cy="220" r="5" fill="#EE720B"/>
+  
+  <!-- Right fork -->
+  <path d="M300 150L260 150L240 200L260 250L300 250L320 200Z" fill="#FFC567" opacity="0.3"/>
+  <path d="M290 160L270 160L260 200L270 240L290 240L300 200Z" fill="#25483F"/>
+  <circle cx="280" cy="180" r="5" fill="#EE720B"/>
+  <circle cx="280" cy="220" r="5" fill="#EE720B"/>
+  
+  <!-- Council members (silhouettes) -->
+  <circle cx="150" cy="190" r="10" fill="#1A2C2A"/>
+  <ellipse cx="150" cy="210" rx="10" ry="15" fill="#1A2C2A"/>
+  
+  <circle cx="190" cy="190" r="10" fill="#1A2C2A"/>
+  <ellipse cx="190" cy="210" rx="10" ry="15" fill="#1A2C2A"/>
+  
+  <circle cx="230" cy="190" r="10" fill="#1A2C2A"/>
+  <ellipse cx="230" cy="210" rx="10" ry="15" fill="#1A2C2A"/>
+  
+  <circle cx="270" cy="190" r="10" fill="#1A2C2A"/>
+  <ellipse cx="270" cy="210" rx="10" ry="15" fill="#1A2C2A"/>
+  
+  <!-- Debate swirls -->
+  <path d="M150 170C155 165 160 165 165 170" stroke="#FFC567" stroke-width="1" opacity="0.7" fill="none"/>
+  <path d="M230 170C235 165 240 165 245 170" stroke="#FFC567" stroke-width="1" opacity="0.7" fill="none"/>
+  <path d="M190 170C185 165 175 165 170 170" stroke="#FFC567" stroke-width="1" opacity="0.7" fill="none"/>
+  <path d="M270 170C265 165 255 165 250 170" stroke="#FFC567" stroke-width="1" opacity="0.7" fill="none"/>
+  
+  <!-- Title -->
+  <rect x="90" y="30" width="220" height="60" rx="10" fill="#1A2C2A" fill-opacity="0.7"/>
+  <text x="200" y="60" font-family="sans-serif" font-size="20" fill="#FFC567" text-anchor="middle" font-weight="bold">THE COUNCIL</text>
+  <text x="200" y="85" font-family="sans-serif" font-size="24" fill="#FFC567" text-anchor="middle" font-weight="bold">OF FORKS</text>
+  
+  <!-- Module number -->
+  <rect x="140" y="260" width="120" height="30" rx="5" fill="#1A2C2A" fill-opacity="0.8"/>
+  <text x="200" y="280" font-family="sans-serif" font-size="16" fill="#FBF4D2" text-anchor="middle">Module 6</text>
+</svg>

@@ -1,0 +1,101 @@
+dist.94abdbf1.js:80 bybit:page provider inject code 
+chunk-WRD5HZVH.js?v=afadf79d:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+main.tsx:17 Application starting - initializing React...
+main.tsx:24 React app rendered successfully
+App.tsx:38 Current location: /realm3/mission/1
+client:560 [vite] server connection lost. Polling for restart...
+TradeRouteMap.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+main.tsx:55 Global error: TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+(anonymous) @ main.tsx:55
+chunk-OU5AQDZK.js?v=afadf79d:903 Uncaught TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+main.tsx:55 Global error: TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+(anonymous) @ main.tsx:55
+chunk-OU5AQDZK.js?v=afadf79d:903 Uncaught TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+chunk-WRD5HZVH.js?v=afadf79d:14032 The above error occurred in one of your React components:
+
+    at Lazy
+    at Route (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:323:16)
+    at Switch (http://localhost:5001/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=afadf79d:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5001/src/context/AuthContext.tsx:81:32)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-WRD5HZVH.js?v=afadf79d:14032
+main.tsx:55 Global error: TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+(anonymous) @ main.tsx:55
+chunk-WRD5HZVH.js?v=afadf79d:19413 Uncaught TypeError: Failed to fetch dynamically imported module: http://localhost:5001/src/pages/realm3/mission-wrapper.tsx
+BitcoinPrivacySimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+LightningPrivacySimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+SelfCustodySimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+PrivacyBalanceSimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+ReflectionExercise.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+CBDCSimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+mission-content-wrapper.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+FinancialSurveillanceSimulator.tsx:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+:5001/:1 
+            
+            
+           Failed to load resource: net::ERR_EMPTY_RESPONSE
+:5001/:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+client:736 
+            
+            
+           GET http://localhost:5001/ net::ERR_CONNECTION_REFUSED
+ping @ client:736
+waitForSuccessfulPing @ client:755
+client:736 
+            
+            
+           GET http://localhost:5001/ net::ERR_CONNECTION_REFUSED
+ping @ client:736
+waitForSuccessfulPing @ client:755
+client:736 
+            
+            
+           GET http://localhost:5001/ net::ERR_CONNECTION_REFUSED
+ping @ client:736
+waitForSuccessfulPing @ client:755
+client:736 
+            
+            
+           GET http://localhost:5001/ net::ERR_CONNECTION_REFUSED
+ping @ client:736
+waitForSuccessfulPing @ client:755
+client:736 
+            
+            
+           GET http://localhost:5001/ net::ERR_CONNECTION_REFUSED
+ping @ client:736
+waitForSuccessfulPing @ client:755

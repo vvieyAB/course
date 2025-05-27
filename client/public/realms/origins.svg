@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#B34700" />
+  <defs>
+    <radialGradient id="sunset" cx="50%" cy="100%" r="70%" fx="50%" fy="100%">
+      <stop offset="0%" stop-color="#FFC567" stop-opacity="1" />
+      <stop offset="40%" stop-color="#EE720B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#B34700" stop-opacity="0.8" />
+    </radialGradient>
+    <pattern id="texture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 L20,10" stroke="#FFC567" stroke-width="0.5" opacity="0.2"/>
+      <path d="M10,0 L10,20" stroke="#FFC567" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with texture -->
+  <rect width="400" height="300" fill="url(#sunset)" />
+  <rect width="400" height="300" fill="url(#texture)" />
+  
+  <!-- Sun -->
+  <circle cx="200" cy="280" r="100" fill="#FFC567" opacity="0.7" />
+  
+  <!-- Horizon silhouette -->
+  <path d="M0,200 Q40,190 80,200 Q120,210 160,200 Q200,190 240,200 Q280,210 320,200 Q360,190 400,200 L400,300 L0,300 Z" fill="#3A2E00" opacity="0.8" />
+  
+  <!-- Title -->
+  <text x="200" y="140" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FBF4D2">Realm of Origins</text>
+  
+  <!-- Stylized decorative elements -->
+  <circle cx="120" cy="80" r="10" fill="#FFC567" opacity="0.6" />
+  <circle cx="280" cy="60" r="6" fill="#FFC567" opacity="0.5" />
+  <circle cx="70" cy="120" r="8" fill="#FFC567" opacity="0.4" />
+  <circle cx="330" cy="100" r="7" fill="#FFC567" opacity="0.5" />
+</svg>

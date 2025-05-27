@@ -1,0 +1,13 @@
+{
+  "name": "bitcoin-education-app",
+  "version": "1.0.0",
+  "description": "Pure HTML, CSS, and JavaScript Bitcoin education application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 5000 -s",
+    "dev": "npx serve . -p 5000 -s"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

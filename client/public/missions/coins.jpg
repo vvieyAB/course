@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#B34700" />
+  <defs>
+    <linearGradient id="bazaarGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#31456A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#B34700" stop-opacity="0.9" />
+    </linearGradient>
+    <pattern id="marketTexture" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0,15 L30,15" stroke="#FFC567" stroke-width="0.5" opacity="0.2"/>
+      <path d="M15,0 L15,30" stroke="#FFC567" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with texture -->
+  <rect width="400" height="300" fill="url(#bazaarGradient)" />
+  <rect width="400" height="300" fill="url(#marketTexture)" />
+  
+  <!-- Stylized market stalls -->
+  <path d="M50,200 L100,150 L150,200 Z" fill="#FBF4D2" opacity="0.6" />
+  <path d="M120,200 L170,150 L220,200 Z" fill="#FBF4D2" opacity="0.6" />
+  <path d="M190,200 L240,150 L290,200 Z" fill="#FBF4D2" opacity="0.6" />
+  <path d="M260,200 L310,150 L360,200 Z" fill="#FBF4D2" opacity="0.6" />
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#3A2E00" />
+  
+  <!-- Market goods -->
+  <circle cx="75" cy="180" r="10" fill="#EE720B" />
+  <circle cx="145" cy="180" r="10" fill="#FFC567" />
+  <circle cx="215" cy="180" r="10" fill="#EE720B" />
+  <circle cx="285" cy="180" r="10" fill="#FFC567" />
+  <rect x="60" y="190" width="30" height="10" fill="#B34700" />
+  <rect x="130" y="190" width="30" height="10" fill="#B34700" />
+  <rect x="200" y="190" width="30" height="10" fill="#B34700" />
+  <rect x="270" y="190" width="30" height="10" fill="#B34700" />
+  
+  <!-- Title -->
+  <text x="200" y="100" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FBF4D2">The Grand Bazaar</text>
+</svg>

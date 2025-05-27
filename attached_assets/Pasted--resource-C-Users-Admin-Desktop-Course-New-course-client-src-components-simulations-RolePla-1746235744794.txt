@@ -1,0 +1,67 @@
+[{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "18048",
+	"severity": 8,
+	"message": "'citadelTheme.gradients' is possibly 'undefined'.",
+	"source": "ts",
+	"startLineNumber": 131,
+	"startColumn": 27,
+	"endLineNumber": 131,
+	"endColumn": 49
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'blue' does not exist on type '{ sunset?: string | undefined; sand?: string | undefined; }'.",
+	"source": "ts",
+	"startLineNumber": 131,
+	"startColumn": 50,
+	"endLineNumber": 131,
+	"endColumn": 54
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "18048",
+	"severity": 8,
+	"message": "'citadelTheme.shadows' is possibly 'undefined'.",
+	"source": "ts",
+	"startLineNumber": 132,
+	"startColumn": 26,
+	"endLineNumber": 132,
+	"endColumn": 46
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "18048",
+	"severity": 8,
+	"message": "'citadelTheme.gradients' is possibly 'undefined'.",
+	"source": "ts",
+	"startLineNumber": 253,
+	"startColumn": 31,
+	"endLineNumber": 253,
+	"endColumn": 53
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "2339",
+	"severity": 8,
+	"message": "Property 'blue' does not exist on type '{ sunset?: string | undefined; sand?: string | undefined; }'.",
+	"source": "ts",
+	"startLineNumber": 253,
+	"startColumn": 54,
+	"endLineNumber": 253,
+	"endColumn": 58
+},{
+	"resource": "/C:/Users/Admin/Desktop/Course/New-course/client/src/components/simulations/RolePlaySimulator.tsx",
+	"owner": "typescript",
+	"code": "18048",
+	"severity": 8,
+	"message": "'citadelTheme.shadows' is possibly 'undefined'.",
+	"source": "ts",
+	"startLineNumber": 254,
+	"startColumn": 30,
+	"endLineNumber": 254,
+	"endColumn": 50
+}]

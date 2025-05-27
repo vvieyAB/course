@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="100" fill="#1A2C2A"/>
+  
+  <!-- African pattern background -->
+  <circle cx="100" cy="100" r="80" fill="#25483F"/>
+  <path d="M40 100 Q 100 40 160 100" stroke="#FFC567" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M40 100 Q 100 160 160 100" stroke="#FFC567" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M100 40 Q 160 100 100 160" stroke="#FFC567" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M100 40 Q 40 100 100 160" stroke="#FFC567" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Bitcoin symbol stylized -->
+  <g transform="translate(70, 60) scale(0.6)">
+    <circle cx="50" cy="50" r="45" fill="#EE720B"/>
+    <path d="M65 35 C 80 40 75 60 60 65 C 80 70 75 90 58 95 L 58 105 L 42 105 L 42 95 C 39 95 35 95 30 95 L 30 80 L 42 80 L 42 65 L 30 65 L 30 50 L 42 50 L 42 40 L 30 40 L 30 25 L 42 25 L 42 15 L 58 15 L 58 25 C 62 25 70 26 75 30 Z" fill="#FFC567"/>
+    <path d="M42 50 L 58 50 C 63 50 65 55 62 60 C 61 63 58 64 55 65 L 42 65 Z" fill="#1A2C2A"/>
+    <path d="M42 80 L 58 80 C 63 80 67 85 65 90 C 63 93 60 94 58 95 L 42 95 Z" fill="#1A2C2A"/>
+  </g>
+  
+  <!-- Decorative border -->
+  <circle cx="100" cy="100" r="95" stroke="#FFC567" stroke-width="3" fill="none"/>
+  
+  <!-- Small African pattern elements -->
+  <circle cx="40" cy="40" r="5" fill="#FFC567" opacity="0.8"/>
+  <circle cx="160" cy="40" r="5" fill="#FFC567" opacity="0.8"/>
+  <circle cx="40" cy="160" r="5" fill="#FFC567" opacity="0.8"/>
+  <circle cx="160" cy="160" r="5" fill="#FFC567" opacity="0.8"/>
+  
+  <path d="M30 100 L 50 100" stroke="#FFC567" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M150 100 L 170 100" stroke="#FFC567" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M100 30 L 100 50" stroke="#FFC567" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M100 150 L 100 170" stroke="#FFC567" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>

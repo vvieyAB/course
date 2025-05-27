@@ -1,0 +1,83 @@
+Current location: /home
+App.tsx:35 Current location: /realm/3
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=d37eddbb:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=d37eddbb:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=d37eddbb:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)
+(anonymous) @ main.tsx:55Understand this error
+home.tsx:77 Uncaught TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=d37eddbb:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=d37eddbb:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=d37eddbb:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)Understand this error
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=d37eddbb:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=d37eddbb:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=d37eddbb:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)
+(anonymous) @ main.tsx:55Understand this error
+home.tsx:77 Uncaught TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=d37eddbb:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=d37eddbb:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=d37eddbb:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)Understand this error
+chunk-WRD5HZVH.js?v=d37eddbb:14032 The above error occurred in the <Realm3Home> component:
+
+    at Realm3Home (http://localhost:5000/src/pages/realm3/home.tsx:26:47)
+    at Route (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=d37eddbb:323:16)
+    at Switch (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=d37eddbb:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5000/src/context/AuthContext.tsx:54:32)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-WRD5HZVH.js?v=d37eddbb:14032Understand this error
+main.tsx:55 Global error: TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=d37eddbb:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=d37eddbb:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=d37eddbb:18736:28)
+(anonymous) @ main.tsx:55Understand this error
+chunk-WRD5HZVH.js?v=d37eddbb:19413 Uncaught TypeError: Cannot read properties of undefined (reading 'glow')
+    at Realm3Home (home.tsx:77:62)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=d37eddbb:11548:26)
+    at updateFunctionComponent (chunk-WRD5HZVH.js?v=d37eddbb:14582:28)
+    at mountLazyComponent (chunk-WRD5HZVH.js?v=d37eddbb:14833:23)
+    at beginWork (chunk-WRD5HZVH.js?v=d37eddbb:15918:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=d37eddbb:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=d37eddbb:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=d37eddbb:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=d37eddbb:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=d37eddbb:18736:28)

@@ -1,0 +1,91 @@
+Current location: /realm/6/mission/3
+mission-wrapper.tsx:89 Attempting to load mission from: ../pages/realm6/mission3.tsx, ../pages/realm6/mission.tsx, ../pages/realm6/barter-web-challenge.tsx, ../pages/realm6/currency-value-simulator.tsx, ../pages/realm6/inflation-simulator.tsx, ../realms/Realm6/Mission3/index.tsx
+mission3.tsx:1 Failed to load module script: Expected a JavaScript module script but the server responded with a MIME type of "text/html". Strict MIME type checking is enforced for module scripts per HTML spec.Understand this error
+mission-wrapper.tsx:101 Path ../pages/realm6/mission3.tsx not found, trying next...
+mission-wrapper.tsx:97 Successfully loaded mission from: ../pages/realm6/mission.tsx
+main.tsx:60 Global error: TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=6031cbf9:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=6031cbf9:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=6031cbf9:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)
+(anonymous) @ main.tsx:60Understand this error
+mission.tsx:122 Uncaught TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=6031cbf9:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=6031cbf9:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=6031cbf9:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)Understand this error
+main.tsx:60 Global error: TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=6031cbf9:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=6031cbf9:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=6031cbf9:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)
+(anonymous) @ main.tsx:60Understand this error
+mission.tsx:122 Uncaught TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WRD5HZVH.js?v=6031cbf9:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WRD5HZVH.js?v=6031cbf9:3699:24)
+    at invokeGuardedCallback (chunk-WRD5HZVH.js?v=6031cbf9:3733:39)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19765:15)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)Understand this error
+chunk-WRD5HZVH.js?v=6031cbf9:14032 The above error occurred in the <Mission> component:
+
+    at Mission (http://localhost:5000/src/pages/realm6/mission.tsx?import:30:35)
+    at div
+    at div
+    at div
+    at MissionLayout (http://localhost:5000/src/components/mission-layout.tsx:23:3)
+    at MissionWrapper (http://localhost:5000/src/components/mission-wrapper.tsx:85:34)
+    at Route (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=1cad4511:323:16)
+    at Switch (http://localhost:5000/@fs/mnt/c/Users/Admin/Desktop/Course/New-course/node_modules/.vite/deps/wouter.js?v=1cad4511:379:17)
+    at Suspense
+    at AuthProvider (http://localhost:5000/src/context/AuthContext.tsx:54:32)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-WRD5HZVH.js?v=6031cbf9:14032Understand this error
+main.tsx:60 Global error: TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=6031cbf9:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=6031cbf9:18736:28)
+    at performConcurrentWorkOnRoot (chunk-WRD5HZVH.js?v=6031cbf9:18684:30)
+(anonymous) @ main.tsx:60Understand this error
+chunk-WRD5HZVH.js?v=6031cbf9:19413 Uncaught TypeError: Cannot read properties of undefined (reading 'title')
+    at Mission (mission.tsx:122:22)
+    at renderWithHooks (chunk-WRD5HZVH.js?v=6031cbf9:11548:26)
+    at mountIndeterminateComponent (chunk-WRD5HZVH.js?v=6031cbf9:14926:21)
+    at beginWork (chunk-WRD5HZVH.js?v=6031cbf9:15914:22)
+    at beginWork$1 (chunk-WRD5HZVH.js?v=6031cbf9:19753:22)
+    at performUnitOfWork (chunk-WRD5HZVH.js?v=6031cbf9:19198:20)
+    at workLoopSync (chunk-WRD5HZVH.js?v=6031cbf9:19137:13)
+    at renderRootSync (chunk-WRD5HZVH.js?v=6031cbf9:19116:15)
+    at recoverFromConcurrentError (chunk-WRD5HZVH.js?v=6031cbf9:18736:28)
+    at performConcurrentWorkOnRoot (chunk-WRD5HZVH.js?v=6031cbf9:18684:30)

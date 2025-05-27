@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asha's Journey - Standalone Mode</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f7f2;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      background-color: #8c4f25;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      margin-top: 0;
+      opacity: 0.8;
+    }
+    .realms {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .realm-card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .realm-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .realm-image {
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .realm-content {
+      padding: 1.5rem;
+    }
+    .realm-name {
+      font-size: 1.5rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      color: #6b4226;
+    }
+    .realm-focus {
+      display: inline-block;
+      background-color: #f0e6d8;
+      color: #8c4f25;
+      font-size: 0.85rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+    .realm-description {
+      color: #666;
+      line-height: 1.6;
+    }
+    .locked-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .locked-icon {
+      font-size: 1.2rem;
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #8c4f25;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+    .button:hover {
+      background-color: #6b3517;
+    }
+    .button.secondary {
+      background-color: #e9e0d3;
+      color: #6b4226;
+    }
+    .button.secondary:hover {
+      background-color: #d9caae;
+    }
+    .error-banner {
+      background-color: #ffedeb;
+      border-left: 4px solid #ff5a52;
+      padding: 1rem;
+      margin: 2rem 0;
+      border-radius: 4px;
+    }
+    .info-box {
+      background-color: #f0e6d8;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .info-box h3 {
+      margin-top: 0;
+      color: #6b4226;
+    }
+    .dev-panel {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background-color: rgba(50, 50, 50, 0.9);
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      z-index: 100;
+      max-width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .dev-panel h3 {
+      margin-top: 0;
+      font-size: 1rem;
+      color: #fcd34d;
+    }
+    .dev-panel ul {
+      padding-left: 1.5rem;
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Asha's Journey Through the Realms of Money</h1>
+      <p class="subtitle">A Bitcoin Education Adventure</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="info-box">
+      <h3>Development Mode</h3>
+      <p>This is a standalone version of the Bitcoin education platform. The Vite-based application is encountering host configuration issues in the Replit environment.</p>
+      <p>This page demonstrates the basic structure of the realm selection interface without requiring Vite or React.</p>
+    </div>
+
+    <h2>Your Learning Journey</h2>
+    <p>Explore the seven realms of Bitcoin knowledge with Asha and Odu as your guides.</p>
+    
+    <div class="realms">
+      <!-- Realm 1 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?african,market');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Foundations of Money</span>
+          <h3 class="realm-name">Realm of Origins</h3>
+          <p class="realm-description">Discover the foundational stories of money at the grand trade festival. Learn about barter, early forms of value exchange, and the dawn of monetary systems.</p>
+          <div class="buttons">
+            <a href="/realm/1" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 2 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?bank,tower');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Governance & Central Banking</span>
+          <h3 class="realm-name">The Central Citadel</h3>
+          <p class="realm-description">Explore the intricate systems of modern money, central banks, and the evolution of currencies from physical coins to digital tokens.</p>
+          <div class="buttons">
+            <a href="/realm/2" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 3 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?forest,technology');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Bitcoin's Birth</span>
+          <h3 class="realm-name">The Forest of Sparks</h3>
+          <p class="realm-description">Venture into the blockchain frontier where cryptographic technology has revolutionized the concept of money and trust-based systems.</p>
+          <div class="buttons">
+            <a href="/realm/3" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 4 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?mountain,mining');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Mining & Consensus</span>
+          <h3 class="realm-name">The Mountain Forge</h3>
+          <p class="realm-description">Master the fundamentals of Bitcoin mining and how proof-of-work secures the blockchain network.</p>
+          <div class="buttons">
+            <a href="/realm/4" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 5 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?council,gathering');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Bitcoin Governance</span>
+          <h3 class="realm-name">The Council of Forks</h3>
+          <p class="realm-description">Glimpse into the governance of Bitcoin, exploring protocol upgrades, consensus changes, and the history of forks.</p>
+          <div class="buttons">
+            <a href="/realm/5" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 6 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?african,village');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Bitcoin in Africa</span>
+          <h3 class="realm-name">The Ubuntu Village</h3>
+          <p class="realm-description">Discover how Bitcoin weaves into African traditions of community and shared prosperity.</p>
+          <div class="buttons">
+            <a href="/realm/6" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Realm 7 -->
+      <div class="realm-card">
+        <div class="realm-image" style="background-image: url('https://source.unsplash.com/random/600x400/?mountain,peak');">
+          <!-- Realm is unlocked -->
+        </div>
+        <div class="realm-content">
+          <span class="realm-focus">Comprehensive Assessment</span>
+          <h3 class="realm-name">The Summit of Knowledge</h3>
+          <p class="realm-description">Complete your journey and demonstrate your mastery of Bitcoin concepts through comprehensive challenges.</p>
+          <div class="buttons">
+            <a href="/realm/7" class="button">Start Journey</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="dev-panel">
+    <h3>Development Status</h3>
+    <ul>
+      <li>All realms unlocked</li>
+      <li>Using standalone HTML version</li>
+      <li>Bypassing Vite host restrictions</li>
+    </ul>
+  </div>
+</body>
+</html>
